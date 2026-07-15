@@ -1,0 +1,48 @@
+# Secrets and configs
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache and temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local model weights and downloads (will download automatically on run)
+models/
+.cache/
+*.incomplete
+
+# Source PDFs (excluded to prevent copyright/size issues)
+data/pdfs/*
+!data/pdfs/.gitkeep
+
+# Keep pre-built database index assets in repository
+!data/urls.txt
+!data/indexes/
+!data/indexes/**
+
+# Logs
+logs/
+*.log
+
+# IDE, Editors, and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporary recovery backups
+recovery-output/
+llm-qa-assistant-recovery-backup/

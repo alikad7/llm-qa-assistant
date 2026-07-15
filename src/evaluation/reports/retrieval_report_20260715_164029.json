@@ -1,0 +1,337 @@
+{
+  "created_at": "2026-07-15T13:10:29.192905+00:00",
+  "dataset_path": "F:\\LLM\\llm-qa-assistant\\src\\evaluation\\datasets\\evaluation_dataset.json",
+  "retrieval_top_k": 5,
+  "retrieval_candidate_k": 20,
+  "summary": {
+    "total_dataset_questions": 12,
+    "successful_questions": 12,
+    "failed_questions": 0,
+    "hit_rate_at_k": 1.0,
+    "precision_at_k": 0.4,
+    "recall_at_k": 0.875,
+    "mrr_at_k": 0.8611,
+    "ndcg_at_k": 0.7995,
+    "source_level_context_precision": 0.4,
+    "source_level_context_recall": 0.875,
+    "questions_with_hits": 12
+  },
+  "results": [
+    {
+      "id": "q001",
+      "question": "What makes a good test case?",
+      "language": "en",
+      "expected_sources": [
+        "https://www.softwaretestinghelp.com/how-to-write-effective-test-cases-test-cases-procedures-and-definitions/",
+        "https://www.softwaretestinghelp.com/test-case-template-examples/"
+      ],
+      "retrieved_sources": [
+        "https://www.softwaretestinghelp.com/test-case-template-examples/",
+        "explore_it_reduce_risk_and_increase_confidence_with_exploratory.pdf",
+        "https://www.softwaretestinghelp.com/writing-test-cases-from-srs-software-testing-qa-training-day-4/",
+        "https://www.softwaretestinghelp.com/unit-testing/",
+        "https://www.softwaretestinghelp.com/test-case-template-examples/"
+      ],
+      "retrieved_count": 5,
+      "metrics": {
+        "hit_rate_at_k": 1.0,
+        "precision_at_k": 0.25,
+        "recall_at_k": 0.5,
+        "mrr_at_k": 1.0,
+        "ndcg_at_k": 0.6131,
+        "source_level_context_precision": 0.25,
+        "source_level_context_recall": 0.5
+      },
+      "status": "ok"
+    },
+    {
+      "id": "q002",
+      "question": "How do I write test cases from requirements or an SRS document?",
+      "language": "en",
+      "expected_sources": [
+        "https://www.softwaretestinghelp.com/writing-test-cases-from-srs-software-testing-qa-training-day-4/",
+        "https://www.softwaretestinghelp.com/rview-srs-document-and-create-test-scenarios-software-testing-training-course-day-2/"
+      ],
+      "retrieved_sources": [
+        "https://www.softwaretestinghelp.com/test-case-template-examples/",
+        "https://www.softwaretestinghelp.com/writing-test-cases-from-srs-software-testing-qa-training-day-4/",
+        "https://www.softwaretestinghelp.com/how-to-write-effective-test-cases-test-cases-procedures-and-definitions/",
+        "https://www.softwaretestinghelp.com/free-online-software-testing-qa-training-course/",
+        "https://www.softwaretestinghelp.com/rview-srs-document-and-create-test-scenarios-software-testing-training-course-day-2/"
+      ],
+      "retrieved_count": 5,
+      "metrics": {
+        "hit_rate_at_k": 1.0,
+        "precision_at_k": 0.4,
+        "recall_at_k": 1.0,
+        "mrr_at_k": 0.5,
+        "ndcg_at_k": 0.6241,
+        "source_level_context_precision": 0.4,
+        "source_level_context_recall": 1.0
+      },
+      "status": "ok"
+    },
+    {
+      "id": "q003",
+      "question": "What should a test plan include?",
+      "language": "en",
+      "expected_sources": [
+        "https://www.softwaretestinghelp.com/how-to-write-test-plan-document-software-testing-training-day3/",
+        "https://www.softwaretestinghelp.com/test-plan-template/"
+      ],
+      "retrieved_sources": [
+        "https://www.softwaretestinghelp.com/test-plan-template/",
+        "https://www.softwaretestinghelp.com/writing-test-strategy-document-template/",
+        "https://www.softwaretestinghelp.com/writing-test-strategy-document-template/",
+        "https://www.softwaretestinghelp.com/writing-test-strategy-document-template/",
+        "https://www.softwaretestinghelp.com/system-testing/"
+      ],
+      "retrieved_count": 5,
+      "metrics": {
+        "hit_rate_at_k": 1.0,
+        "precision_at_k": 0.3333,
+        "recall_at_k": 0.5,
+        "mrr_at_k": 1.0,
+        "ndcg_at_k": 0.6131,
+        "source_level_context_precision": 0.3333,
+        "source_level_context_recall": 0.5
+      },
+      "status": "ok"
+    },
+    {
+      "id": "q004",
+      "question": "What is the difference between a test plan and a test strategy?",
+      "language": "en",
+      "expected_sources": [
+        "https://www.softwaretestinghelp.com/how-to-write-test-plan-document-software-testing-training-day3/",
+        "https://www.softwaretestinghelp.com/writing-test-strategy-document-template/"
+      ],
+      "retrieved_sources": [
+        "https://www.softwaretestinghelp.com/writing-test-strategy-document-template/",
+        "https://www.softwaretestinghelp.com/writing-test-strategy-document-template/",
+        "https://www.softwaretestinghelp.com/writing-test-strategy-document-template/",
+        "https://www.softwaretestinghelp.com/test-plan-template/",
+        "https://www.softwaretestinghelp.com/writing-test-strategy-document-template/"
+      ],
+      "retrieved_count": 5,
+      "metrics": {
+        "hit_rate_at_k": 1.0,
+        "precision_at_k": 0.5,
+        "recall_at_k": 0.5,
+        "mrr_at_k": 1.0,
+        "ndcg_at_k": 0.6131,
+        "source_level_context_precision": 0.5,
+        "source_level_context_recall": 0.5
+      },
+      "status": "ok"
+    },
+    {
+      "id": "q005",
+      "question": "What is boundary value analysis and equivalence partitioning?",
+      "language": "en",
+      "expected_sources": [
+        "https://www.softwaretestinghelp.com/what-is-boundary-value-analysis-and-equivalence-partitioning/"
+      ],
+      "retrieved_sources": [
+        "https://www.softwaretestinghelp.com/what-is-boundary-value-analysis-and-equivalence-partitioning/",
+        "https://www.softwaretestinghelp.com/test-case-template-examples/",
+        "https://www.softwaretestinghelp.com/software-development-testing-methodologies/",
+        "https://www.softwaretestinghelp.com/what-is-boundary-value-analysis-and-equivalence-partitioning/",
+        "https://www.softwaretestinghelp.com/writing-test-cases-from-srs-software-testing-qa-training-day-4/"
+      ],
+      "retrieved_count": 5,
+      "metrics": {
+        "hit_rate_at_k": 1.0,
+        "precision_at_k": 0.25,
+        "recall_at_k": 1.0,
+        "mrr_at_k": 1.0,
+        "ndcg_at_k": 1.0,
+        "source_level_context_precision": 0.25,
+        "source_level_context_recall": 1.0
+      },
+      "status": "ok"
+    },
+    {
+      "id": "q006",
+      "question": "What is use case testing?",
+      "language": "en",
+      "expected_sources": [
+        "https://www.softwaretestinghelp.com/use-case-testing/"
+      ],
+      "retrieved_sources": [
+        "https://www.softwaretestinghelp.com/use-case-testing/",
+        "https://www.softwaretestinghelp.com/software-test-estimation-how-to-estimate-testing-time-accurately/",
+        "https://www.softwaretestinghelp.com/use-case-testing/",
+        "https://www.softwaretestinghelp.com/test-case-template-examples/",
+        "https://www.softwaretestinghelp.com/test-case-template-examples/"
+      ],
+      "retrieved_count": 5,
+      "metrics": {
+        "hit_rate_at_k": 1.0,
+        "precision_at_k": 0.3333,
+        "recall_at_k": 1.0,
+        "mrr_at_k": 1.0,
+        "ndcg_at_k": 1.0,
+        "source_level_context_precision": 0.3333,
+        "source_level_context_recall": 1.0
+      },
+      "status": "ok"
+    },
+    {
+      "id": "q007",
+      "question": "What is the difference between smoke testing and sanity testing?",
+      "language": "en",
+      "expected_sources": [
+        "https://www.softwaretestinghelp.com/smoke-testing-and-sanity-testing-difference/"
+      ],
+      "retrieved_sources": [
+        "https://www.softwaretestinghelp.com/smoke-testing-and-sanity-testing-difference/",
+        "https://www.softwaretestinghelp.com/smoke-testing-and-sanity-testing-difference/",
+        "https://www.softwaretestinghelp.com/smoke-testing-and-sanity-testing-difference/",
+        "https://www.softwaretestinghelp.com/manual-testing-tutorial-1/",
+        "https://www.softwaretestinghelp.com/smoke-testing-and-sanity-testing-difference/"
+      ],
+      "retrieved_count": 5,
+      "metrics": {
+        "hit_rate_at_k": 1.0,
+        "precision_at_k": 0.5,
+        "recall_at_k": 1.0,
+        "mrr_at_k": 1.0,
+        "ndcg_at_k": 1.0,
+        "source_level_context_precision": 0.5,
+        "source_level_context_recall": 1.0
+      },
+      "status": "ok"
+    },
+    {
+      "id": "q008",
+      "question": "What is non-functional testing?",
+      "language": "en",
+      "expected_sources": [
+        "https://www.softwaretestinghelp.com/what-is-non-functional-testing/"
+      ],
+      "retrieved_sources": [
+        "https://www.softwaretestinghelp.com/what-is-non-functional-testing/",
+        "https://www.softwaretestinghelp.com/system-testing/",
+        "https://www.softwaretestinghelp.com/how-is-cross-browser-testing-performed/",
+        "https://www.softwaretestinghelp.com/software-compatibility-testing/",
+        "https://www.softwaretestinghelp.com/test-coverage/"
+      ],
+      "retrieved_count": 5,
+      "metrics": {
+        "hit_rate_at_k": 1.0,
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "mrr_at_k": 1.0,
+        "ndcg_at_k": 1.0,
+        "source_level_context_precision": 0.2,
+        "source_level_context_recall": 1.0
+      },
+      "status": "ok"
+    },
+    {
+      "id": "q009",
+      "question": "What is regression testing and when should it be performed?",
+      "language": "en",
+      "expected_sources": [
+        "https://www.softwaretestinghelp.com/regression-testing-tools-and-methods/"
+      ],
+      "retrieved_sources": [
+        "https://www.softwaretestinghelp.com/regression-testing-tools-and-methods/",
+        "https://www.softwaretestinghelp.com/regression-testing-tools-and-methods/",
+        "https://www.softwaretestinghelp.com/regression-testing-tools-and-methods/",
+        "https://www.softwaretestinghelp.com/regression-testing-tools-and-methods/",
+        "https://www.softwaretestinghelp.com/regression-testing-tools-and-methods/"
+      ],
+      "retrieved_count": 5,
+      "metrics": {
+        "hit_rate_at_k": 1.0,
+        "precision_at_k": 1.0,
+        "recall_at_k": 1.0,
+        "mrr_at_k": 1.0,
+        "ndcg_at_k": 1.0,
+        "source_level_context_precision": 1.0,
+        "source_level_context_recall": 1.0
+      },
+      "status": "ok"
+    },
+    {
+      "id": "q010",
+      "question": "What is requirements traceability matrix and why is it useful?",
+      "language": "en",
+      "expected_sources": [
+        "https://www.softwaretestinghelp.com/requirements-traceability-matrix/"
+      ],
+      "retrieved_sources": [
+        "https://www.softwaretestinghelp.com/requirements-traceability-matrix/",
+        "https://www.softwaretestinghelp.com/requirements-traceability-matrix/",
+        "https://www.softwaretestinghelp.com/requirements-traceability-matrix/",
+        "https://www.softwaretestinghelp.com/test-coverage/",
+        "https://www.softwaretestinghelp.com/requirements-traceability-matrix/"
+      ],
+      "retrieved_count": 5,
+      "metrics": {
+        "hit_rate_at_k": 1.0,
+        "precision_at_k": 0.5,
+        "recall_at_k": 1.0,
+        "mrr_at_k": 1.0,
+        "ndcg_at_k": 1.0,
+        "source_level_context_precision": 0.5,
+        "source_level_context_recall": 1.0
+      },
+      "status": "ok"
+    },
+    {
+      "id": "q011",
+      "question": "What is test coverage?",
+      "language": "en",
+      "expected_sources": [
+        "https://www.softwaretestinghelp.com/test-coverage/"
+      ],
+      "retrieved_sources": [
+        "https://www.softwaretestinghelp.com/requirements-traceability-matrix/",
+        "https://www.softwaretestinghelp.com/test-coverage/",
+        "https://www.softwaretestinghelp.com/test-coverage/",
+        "https://www.softwaretestinghelp.com/test-coverage/",
+        "a_friendly_introduction_to_software_testing_9781523477371_compress.pdf"
+      ],
+      "retrieved_count": 5,
+      "metrics": {
+        "hit_rate_at_k": 1.0,
+        "precision_at_k": 0.3333,
+        "recall_at_k": 1.0,
+        "mrr_at_k": 0.5,
+        "ndcg_at_k": 0.6309,
+        "source_level_context_precision": 0.3333,
+        "source_level_context_recall": 1.0
+      },
+      "status": "ok"
+    },
+    {
+      "id": "q012",
+      "question": "How should test data be designed before executing test cases?",
+      "language": "en",
+      "expected_sources": [
+        "https://www.softwaretestinghelp.com/tips-to-design-test-data-before-executing-your-test-cases/"
+      ],
+      "retrieved_sources": [
+        "https://www.softwaretestinghelp.com/system-testing/",
+        "https://www.softwaretestinghelp.com/test-case-template-examples/",
+        "https://www.softwaretestinghelp.com/tips-to-design-test-data-before-executing-your-test-cases/",
+        "https://www.softwaretestinghelp.com/best-test-management-tools/",
+        "https://www.softwaretestinghelp.com/test-execution-software-testing-qa-training-on-a-live-project-day-5/"
+      ],
+      "retrieved_count": 5,
+      "metrics": {
+        "hit_rate_at_k": 1.0,
+        "precision_at_k": 0.2,
+        "recall_at_k": 1.0,
+        "mrr_at_k": 0.3333,
+        "ndcg_at_k": 0.5,
+        "source_level_context_precision": 0.2,
+        "source_level_context_recall": 1.0
+      },
+      "status": "ok"
+    }
+  ]
+}

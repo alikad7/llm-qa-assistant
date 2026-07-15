@@ -1,0 +1,114 @@
+[
+  {
+    "id": "q001",
+    "question": "What makes a good test case?",
+    "language": "en",
+    "expected_sources": [
+      "https://www.softwaretestinghelp.com/how-to-write-effective-test-cases-test-cases-procedures-and-definitions/",
+      "https://www.softwaretestinghelp.com/test-case-template-examples/"
+    ],
+    "reference_answer": "A good test case should be clear, detailed, and simple. It must contain basic components like Test Case ID, Title, Description, Preconditions, Test Data, Test Steps, Expected Results, Actual Results, Status (Pass/Fail), and Priority. It should cover positive, negative, and boundary scenarios while remaining reusable and independent of other test cases."
+  },
+  {
+    "id": "q002",
+    "question": "How do I write test cases from requirements or an SRS document?",
+    "language": "en",
+    "expected_sources": [
+      "https://www.softwaretestinghelp.com/writing-test-cases-from-srs-software-testing-qa-training-day-4/",
+      "https://www.softwaretestinghelp.com/rview-srs-document-and-create-test-scenarios-software-testing-training-course-day-2/"
+    ],
+    "reference_answer": "Writing test cases from an SRS involves understanding the requirements, identifying functional areas, and mapping requirements to test scenarios. For each scenario, define execution steps, input data, and explicit expected results derived from the SRS. This ensures that test cases map back to requirement specifications and maintain business logic coverage."
+  },
+  {
+    "id": "q003",
+    "question": "What should a test plan include?",
+    "language": "en",
+    "expected_sources": [
+      "https://www.softwaretestinghelp.com/how-to-write-test-plan-document-software-testing-training-day3/",
+      "https://www.softwaretestinghelp.com/test-plan-template/"
+    ],
+    "reference_answer": "A standard test plan includes scope, objectives, features to be tested and not tested, test approach, entry criteria, exit criteria, suspension criteria, environmental requirements, schedule, roles and responsibilities, deliverables, risks, mitigation plans, and approvals."
+  },
+  {
+    "id": "q004",
+    "question": "What is the difference between a test plan and a test strategy?",
+    "language": "en",
+    "expected_sources": [
+      "https://www.softwaretestinghelp.com/how-to-write-test-plan-document-software-testing-training-day3/",
+      "https://www.softwaretestinghelp.com/writing-test-strategy-document-template/"
+    ],
+    "reference_answer": "A test strategy is a high-level document that defines the overall testing approach, standards, tools, and methods. A test plan is a more detailed and project-specific document that defines scope, schedule, resources, responsibilities, and execution details for testing a particular release or project."
+  },
+  {
+    "id": "q005",
+    "question": "What is boundary value analysis and equivalence partitioning?",
+    "language": "en",
+    "expected_sources": [
+      "https://www.softwaretestinghelp.com/what-is-boundary-value-analysis-and-equivalence-partitioning/"
+    ],
+    "reference_answer": "Equivalence partitioning divides input data into valid and invalid classes where the system is expected to behave similarly, and tests representative values from each class. Boundary value analysis focuses on values at the edges of these partitions, such as minimum, maximum, just below minimum, and just above maximum, because defects often occur near boundaries."
+  },
+  {
+    "id": "q006",
+    "question": "What is use case testing?",
+    "language": "en",
+    "expected_sources": [
+      "https://www.softwaretestinghelp.com/use-case-testing/"
+    ],
+    "reference_answer": "Use case testing is a black-box test design technique where test scenarios are derived from user interactions with the system. It validates functional requirements from the perspective of an actor and covers main flows, alternative flows, and exception flows."
+  },
+  {
+    "id": "q007",
+    "question": "What is the difference between smoke testing and sanity testing?",
+    "language": "en",
+    "expected_sources": [
+      "https://www.softwaretestinghelp.com/smoke-testing-and-sanity-testing-difference/"
+    ],
+    "reference_answer": "Smoke testing is a broad and shallow set of tests performed on a new build to verify that critical functionality works and the build is stable enough for further testing. Sanity testing is a narrow and focused set of tests performed after minor changes or bug fixes to verify that specific functionality works as expected."
+  },
+  {
+    "id": "q008",
+    "question": "What is non-functional testing?",
+    "language": "en",
+    "expected_sources": [
+      "https://www.softwaretestinghelp.com/what-is-non-functional-testing/"
+    ],
+    "reference_answer": "Non-functional testing evaluates quality attributes of a system rather than specific functional behavior. It checks aspects such as performance, load handling, stress capacity, security, usability, compatibility, reliability, and installation behavior."
+  },
+  {
+    "id": "q009",
+    "question": "What is regression testing and when should it be performed?",
+    "language": "en",
+    "expected_sources": [
+      "https://www.softwaretestinghelp.com/regression-testing-tools-and-methods/"
+    ],
+    "reference_answer": "Regression testing verifies that recent code changes, bug fixes, configuration updates, or new features have not broken existing functionality. It should be performed whenever software is modified, before releases, after bug fixes, and when integrations or environments change."
+  },
+  {
+    "id": "q010",
+    "question": "What is requirements traceability matrix and why is it useful?",
+    "language": "en",
+    "expected_sources": [
+      "https://www.softwaretestinghelp.com/requirements-traceability-matrix/"
+    ],
+    "reference_answer": "A Requirements Traceability Matrix, or RTM, maps requirements to test cases. It helps ensure test coverage, identify missing tests or uncovered requirements, support change impact analysis, and provide visibility into requirement validation status."
+  },
+  {
+    "id": "q011",
+    "question": "What is test coverage?",
+    "language": "en",
+    "expected_sources": [
+      "https://www.softwaretestinghelp.com/test-coverage/"
+    ],
+    "reference_answer": "Test coverage measures how much of the application, requirements, code, or functionality is exercised by test cases. It helps identify gaps in testing and provides insight into whether important areas of the system have been validated."
+  },
+  {
+    "id": "q012",
+    "question": "How should test data be designed before executing test cases?",
+    "language": "en",
+    "expected_sources": [
+      "https://www.softwaretestinghelp.com/tips-to-design-test-data-before-executing-your-test-cases/"
+    ],
+    "reference_answer": "Test data should be prepared before execution to cover valid inputs, invalid inputs, boundary values, edge cases, and realistic business scenarios. Good test data design improves repeatability, avoids execution delays, and helps validate both normal and exceptional system behavior."
+  }
+]

@@ -34,6 +34,8 @@ The knowledge base was created from selected software testing resources. The ori
 ---
 
 ## Main Features
+<img width="1536" height="1024" alt="pipeline" src="https://github.com/user-attachments/assets/abb263d3-0db3-47db-8574-00811016b58c" />
+
 
 - Domain-specific question answering for software testing
 - Streamlit-based user interface

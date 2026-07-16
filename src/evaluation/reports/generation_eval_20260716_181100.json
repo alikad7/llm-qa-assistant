@@ -1,0 +1,1594 @@
+{
+  "timestamp": "2026-07-16T14:41:00.013833+00:00",
+  "summary": {
+    "total_evaluated": 12,
+    "successful_runs": 12,
+    "failed_runs": 0,
+    "avg_citation_precision": 0.9167,
+    "avg_citation_coverage": 0.2568,
+    "avg_citation_recall": 0.2568,
+    "avg_faithfulness": 0.5017,
+    "avg_source_level_context_precision": 0.2528,
+    "avg_source_level_context_recall": 0.75,
+    "avg_confidence_score": 0.532,
+    "total_invalid_citations": 0,
+    "total_hallucinations": 0,
+    "total_insufficient_responses": 1
+  },
+  "details": [
+    {
+      "id": "q001",
+      "question": "What makes a good test case?",
+      "language": "en",
+      "expected_sources": [
+        "https://www.softwaretestinghelp.com/how-to-write-effective-test-cases-test-cases-procedures-and-definitions/",
+        "https://www.softwaretestinghelp.com/test-case-template-examples/"
+      ],
+      "reference_answer": "A good test case should be clear, detailed, and simple. It must contain basic components like Test Case ID, Title, Description, Preconditions, Test Data, Test Steps, Expected Results, Actual Results, Status (Pass/Fail), and Priority. It should cover positive, negative, and boundary scenarios while remaining reusable and independent of other test cases.",
+      "retrieved_sources": [
+        "https://www.softwaretestinghelp.com/unit-testing/",
+        "explore_it_reduce_risk_and_increase_confidence_with_exploratory.pdf",
+        "https://www.softwaretestinghelp.com/unit-testing/",
+        "https://www.softwaretestinghelp.com/test-case-template-examples/",
+        "https://www.softwaretestinghelp.com/bug-tracking-test-metrics-and-test-sign-off-free-qa-training-day-6/"
+      ],
+      "citation_source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "retrieved_source_details": [
+        {
+          "source_id": "S1",
+          "document_source": "https://www.softwaretestinghelp.com/unit-testing/",
+          "score": 0.55,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/unit-testing/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "What Makes a Good Unit Test?",
+            "section_level": "h3",
+            "page_title": "Unit Testing in Software Testing",
+            "chunk_index": 874,
+            "chunk_length": 702
+          }
+        },
+        {
+          "source_id": "S2",
+          "document_source": "explore_it_reduce_risk_and_increase_confidence_with_exploratory.pdf",
+          "score": 0.49740103719067863,
+          "metadata": {
+            "source": "explore_it_reduce_risk_and_increase_confidence_with_exploratory.pdf",
+            "type": "pdf",
+            "page": 31,
+            "domain": null,
+            "file_path": "F:\\LLM\\llm-qa-assistant\\data\\pdfs\\explore_it_reduce_risk_and_increase_confidence_with_exploratory.pdf",
+            "section_title": null,
+            "section_level": null,
+            "page_title": null,
+            "chunk_index": 192,
+            "chunk_length": 388
+          }
+        },
+        {
+          "source_id": "S3",
+          "document_source": "https://www.softwaretestinghelp.com/unit-testing/",
+          "score": 0.44906987285343375,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/unit-testing/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Best Practice",
+            "section_level": "h3",
+            "page_title": "Unit Testing in Software Testing",
+            "chunk_index": 878,
+            "chunk_length": 781
+          }
+        },
+        {
+          "source_id": "S4",
+          "document_source": "https://www.softwaretestinghelp.com/test-case-template-examples/",
+          "score": 0.4488301359856323,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/test-case-template-examples/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Conclusion",
+            "section_level": "h2",
+            "page_title": "Test Case Template, Examples & Format (Free Download)",
+            "chunk_index": 646,
+            "chunk_length": 743
+          }
+        },
+        {
+          "source_id": "S5",
+          "document_source": "https://www.softwaretestinghelp.com/bug-tracking-test-metrics-and-test-sign-off-free-qa-training-day-6/",
+          "score": 0.42617595511503725,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/bug-tracking-test-metrics-and-test-sign-off-free-qa-training-day-6/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Test Metrics",
+            "section_level": "h3",
+            "page_title": "Live Project QA Sign Off Email Template",
+            "chunk_index": 554,
+            "chunk_length": 738
+          }
+        }
+      ],
+      "context_length": 3941,
+      "context_text": "[S1] | source=https://www.softwaretestinghelp.com/unit-testing/ | section=What Makes a Good Unit Test? | score=0.5500\nWell, I’m not the right person to tell what makes a good Unit Test, but based on my observations on various projects I can tell the characteristics of a good Unit Test. Bad Unit Tests do not add value to the project. Instead, project costs increase significantly by writing and managing bad Unit Tests. How to write good Unit Tests? Unit tests should be written to verify a single unit of code and not the integration. Small and isolated Unit tests with clear naming would make it very easy to write and maintain. Changing to another part of the software should not affect the Unit test if those are isolated and written for a specific unit of code. It should run quickly. Unit test should be reusable.\n\n[S2] | source=explore_it_reduce_risk_and_increase_confidence_with_exploratory.pdf | score=0.4974\n. 2.3 Good Charters A good charter offers direction without overspecifying test actions. As an example, the following isn’t a charter; it’s a test case. When charters are too specific, they become just a different (and weird) way of expressing individual tests. We end up spending a lot of time on test docu- mentation with very little benefit. report erratum • discuss Good Charters • 15\n\n[S3] | source=https://www.softwaretestinghelp.com/unit-testing/ | section=Best Practice | score=0.4491\nTo create the best code during this testing, consider the following points: Code should be strong: There are instances where the test fails or in worst cases does not get executed at all if the code is broken. Understandable and reasonable: The code should be easy to understand. This makes it easy for the developer to write the code and even other developers who will work on the code subsequently will find it easy to debug. Should be a single case: Tests that define multiple cases in one are complex to work with. Thus, writing a single case code is a best practice, which makes the code easier to understand and debug. Allow automated tests: The developers should make sure that the test runs in an automated form. It should be in a continuous delivery or integration process\n\n[S4] | source=https://www.softwaretestinghelp.com/test-case-template-examples/ | section=Conclusion | score=0.4488\nPersonally, I prefer to use a Test Case Management tool . You can start with an open-source tool. It will be a good addition to your efforts to set up the testing process, and meanwhile, it will also save a lot of time instead of manually maintaining these documents. We have also seen test case templates and a few examples using very good quality documentation. I hope this article was helpful to you. Research Process : Total Time taken for research and publishing this guide : 40 Hours (approx). This guide is based on real testing practices used by QA professionals. We reviewed commonly used test case templates, examined how teams document test cases in day-to-day projects, and created examples that reflect practical testing scenarios\n\n[S5] | source=https://www.softwaretestinghelp.com/bug-tracking-test-metrics-and-test-sign-off-free-qa-training-day-6/ | section=Test Metrics | score=0.4262\nWe have established that during the Test Execution phase, reports are sent out to all the other project team members to give a clear idea about what is happening in the QA Execution phase . This information is important to everyone in order to get validation about the overall quality of the final product. Imagine I report that 10 test cases passed or 100 test cases were executed- these numbers are merely raw data and do not give a very good perspective about how things are going on. Metrics play a vital role in filling this gap. Metrics are in simple words, intelligent numbers that the testing team collects and maintains . For Example , if I said 90% of the test cases passed, it makes more sense than saying 150 test cases passed",
+      "generated_answer": "A good test case is characterized by several key attributes:\n\n1. **Clarity and Understandability**: A test case should be easy to understand, which facilitates both writing and debugging by developers. This clarity ensures that subsequent developers can easily work with the code [S3].\n\n2. **Single Focus**: A good test case should define a single case rather than multiple cases. This simplicity makes the test easier to manage and debug, as complex tests can lead to confusion and difficulty in execution [S3].\n\n3. **Automation Compatibility**: Test cases should be designed to run in an automated manner, allowing them to be integrated into continuous delivery or integration processes. This ensures efficiency and consistency in testing [S3].\n\n4. **Reusability**: Test cases should be reusable, which contributes to maintaining a clean and efficient testing process. This aspect helps in reducing redundancy and improving the overall quality of the testing efforts [S1].\n\n5. **Isolation**: Good test cases should be isolated, meaning that changes in other parts of the software should not affect them. This isolation allows for more reliable testing outcomes [S1].\n\nThese characteristics collectively contribute to the effectiveness and efficiency of the testing process, ensuring that the test cases provide valuable insights into the quality of the software being tested.",
+      "metrics": {
+        "citation_precision": 1.0,
+        "citation_coverage": 0.4166666666666667,
+        "citation_recall": 0.4166666666666667,
+        "faithfulness_score": 0.4421052631578947,
+        "source_level_context_precision": 0.25,
+        "source_level_context_recall": 0.5,
+        "confidence_score": 0.5739,
+        "invalid_citation_flag": false,
+        "hallucination_flag": false,
+        "is_insufficient": false,
+        "response_length": 1377,
+        "extracted_citations": [
+          "S1",
+          "S3"
+        ]
+      },
+      "status": "success"
+    },
+    {
+      "id": "q002",
+      "question": "How do I write test cases from requirements or an SRS document?",
+      "language": "en",
+      "expected_sources": [
+        "https://www.softwaretestinghelp.com/writing-test-cases-from-srs-software-testing-qa-training-day-4/",
+        "https://www.softwaretestinghelp.com/rview-srs-document-and-create-test-scenarios-software-testing-training-course-day-2/"
+      ],
+      "reference_answer": "Writing test cases from an SRS involves understanding the requirements, identifying functional areas, and mapping requirements to test scenarios. For each scenario, define execution steps, input data, and explicit expected results derived from the SRS. This ensures that test cases map back to requirement specifications and maintain business logic coverage.",
+      "retrieved_sources": [
+        "https://www.softwaretestinghelp.com/rview-srs-document-and-create-test-scenarios-software-testing-training-course-day-2/",
+        "https://www.softwaretestinghelp.com/free-online-software-testing-qa-training-course/",
+        "https://www.softwaretestinghelp.com/free-online-software-testing-qa-training-course/",
+        "https://www.softwaretestinghelp.com/test-case-template-examples/",
+        "https://www.softwaretestinghelp.com/rview-srs-document-and-create-test-scenarios-software-testing-training-course-day-2/"
+      ],
+      "citation_source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "retrieved_source_details": [
+        {
+          "source_id": "S1",
+          "document_source": "https://www.softwaretestinghelp.com/rview-srs-document-and-create-test-scenarios-software-testing-training-course-day-2/",
+          "score": 0.55,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/rview-srs-document-and-create-test-scenarios-software-testing-training-course-day-2/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Write Test Scenarios by SRS Review (Test Scenario Template)",
+            "section_level": "title",
+            "page_title": "Write Test Scenarios by SRS Review (Test Scenario Template)",
+            "chunk_index": 515,
+            "chunk_length": 526
+          }
+        },
+        {
+          "source_id": "S2",
+          "document_source": "https://www.softwaretestinghelp.com/free-online-software-testing-qa-training-course/",
+          "score": 0.5438673402156512,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/free-online-software-testing-qa-training-course/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "How to take this Software Testing Course Series?",
+            "section_level": "h2",
+            "page_title": "Manual Software Testing Live Project Free Training",
+            "chunk_index": 511,
+            "chunk_length": 611
+          }
+        },
+        {
+          "source_id": "S3",
+          "document_source": "https://www.softwaretestinghelp.com/free-online-software-testing-qa-training-course/",
+          "score": 0.5027778282289513,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/free-online-software-testing-qa-training-course/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Conclusion",
+            "section_level": "h3",
+            "page_title": "Manual Software Testing Live Project Free Training",
+            "chunk_index": 513,
+            "chunk_length": 678
+          }
+        },
+        {
+          "source_id": "S4",
+          "document_source": "https://www.softwaretestinghelp.com/test-case-template-examples/",
+          "score": 0.4817040904693772,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/test-case-template-examples/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Test Case Template, Examples & Format (Free Download)",
+            "section_level": "title",
+            "page_title": "Test Case Template, Examples & Format (Free Download)",
+            "chunk_index": 620,
+            "chunk_length": 717
+          }
+        },
+        {
+          "source_id": "S5",
+          "document_source": "https://www.softwaretestinghelp.com/rview-srs-document-and-create-test-scenarios-software-testing-training-course-day-2/",
+          "score": 0.4596257344470089,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/rview-srs-document-and-create-test-scenarios-software-testing-training-course-day-2/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Some Important Observations Regarding SRS Review",
+            "section_level": "h3",
+            "page_title": "Write Test Scenarios by SRS Review (Test Scenario Template)",
+            "chunk_index": 521,
+            "chunk_length": 418
+          }
+        }
+      ],
+      "context_length": 3845,
+      "context_text": "[S1] | source=https://www.softwaretestinghelp.com/rview-srs-document-and-create-test-scenarios-software-testing-training-course-day-2/ | section=Write Test Scenarios by SRS Review (Test Scenario Template) | score=0.5500\n. The dev, design, environment, and data teams are involved in this step. The outcome of this step is typically a Technical Design Document- TDD. The input is the SRS document both for the creation of the TDD and for the QA team to start working on the QA aspect of the project- which is to review the SRS and identify the test objective. Table of Contents: What Is An SRS Review? Pre-Steps To Software Requirements Specification Review Is Template Required For Test Scenarios? Some Important Observations Regarding SRS Review\n\n[S2] | source=https://www.softwaretestinghelp.com/free-online-software-testing-qa-training-course/ | section=How to take this Software Testing Course Series? | score=0.5439\nStep #1) Introduction and SRS Walkthrough – We will start this mini software testing course with the SRS walkthrough. We have created and shared a sample SRS document. Go through it as all further steps depend on your understanding of this application. Step #2) SRS Review and Test Scenario preparation. Step #3) Test Plan – complete the process of creating a Test Plan from scratch. The final Test Plan version will be shared with you for reference. Step #4) Test Cases – complete test cases writing process with some sample test cases. We may use any Test Management tool or spreadsheet for writing test cases\n\n[S3] | source=https://www.softwaretestinghelp.com/free-online-software-testing-qa-training-course/ | section=Conclusion | score=0.5028\nIn this article, we introduced you to the Software Development and Testing process. We also shared a sample SRS document for the live project that we are going to test. => The upcoming articlein this software testing training series will be – SRS Review and the process of creating test scenarios . Note: While the next article in this QA training series is being written, work with us in parallel here for the most live experience . Try to give the SRS document a good reading and then we will continue with the next steps when we meet again. Happy Testing, till then! About the Author: STH team member Swati Seela is helping us to present this live project QA training series.\n\n[S4] | source=https://www.softwaretestinghelp.com/test-case-template-examples/ | section=Test Case Template, Examples & Format (Free Download) | score=0.4817\nBy Vijay Full Bio > This guide includes prewritten templates for software test cases, actual examples, and document samples that can be downloaded to suit your QA tasks. Every day, I get several requests for aTest Case Template. I’m surprised to see that many testers still document test cases with Word docs or Excel files. But I’m sure that as the volume of your tests goes on increasing, you will find it extremely difficult to manage. No matter whether you are a beginner QA professional or a seasoned software tester. The templates that I have provided in the following section are going to help you write better test cases, increase your test coverage, minimize your errors, and overall optimize your QA process\n\n[S5] | source=https://www.softwaretestinghelp.com/rview-srs-document-and-create-test-scenarios-software-testing-training-course-day-2/ | section=Some Important Observations Regarding SRS Review | score=0.4596\n. The next step to this series is that – we will work on creating test cases and get further into the test designing phase. Before that, we will also get into – What test planning is? Where it fits into the entire QA project? As always, work with us for the best results. QA Training Day 3: How to write an SRS document from scratch. Please keep your questions and comments coming. We appreciate your readership a ton!",
+      "generated_answer": "To write test cases from requirements or an SRS (Software Requirements Specification) document, you start by thoroughly reviewing the SRS to understand the test objectives. This review involves analyzing the requirements to identify what needs to be tested. The SRS review is a critical step where the QA team, along with development, design, environment, and data teams, collaborates to ensure clarity and completeness of requirements. The outcome of this review helps in creating a Technical Design Document (TDD) and forms the basis for test scenario identification [S1].\n\nAfter the SRS review, you prepare test scenarios that cover the identified test objectives. These scenarios are derived directly from the requirements specified in the SRS. Once test scenarios are ready, you proceed to write detailed test cases, which are step-by-step instructions to verify each requirement or scenario. Test cases should be clear, concise, and cover both positive and negative conditions to ensure comprehensive testing [S2].\n\nThe process typically follows these steps:\n1. Walkthrough the SRS document to understand the application and its requirements.\n2. Review the SRS to identify test objectives and create test scenarios.\n3. Develop a test plan outlining the testing strategy.\n4. Write detailed test cases based on the test scenarios, which can be documented using test management tools or spreadsheets for better organization and coverage [S2].\n\nThis approach ensures that test cases are directly traceable to requirements, improving test coverage and effectiveness [S1][S2].",
+      "metrics": {
+        "citation_precision": 1.0,
+        "citation_coverage": 0.2857142857142857,
+        "citation_recall": 0.2857142857142857,
+        "faithfulness_score": 0.422680412371134,
+        "source_level_context_precision": 0.3333333333333333,
+        "source_level_context_recall": 0.5,
+        "confidence_score": 0.5259,
+        "invalid_citation_flag": false,
+        "hallucination_flag": false,
+        "is_insufficient": false,
+        "response_length": 1576,
+        "extracted_citations": [
+          "S1",
+          "S2"
+        ]
+      },
+      "status": "success"
+    },
+    {
+      "id": "q003",
+      "question": "What should a test plan include?",
+      "language": "en",
+      "expected_sources": [
+        "https://www.softwaretestinghelp.com/how-to-write-test-plan-document-software-testing-training-day3/",
+        "https://www.softwaretestinghelp.com/test-plan-template/"
+      ],
+      "reference_answer": "A standard test plan includes scope, objectives, features to be tested and not tested, test approach, entry criteria, exit criteria, suspension criteria, environmental requirements, schedule, roles and responsibilities, deliverables, risks, mitigation plans, and approvals.",
+      "retrieved_sources": [
+        "https://www.softwaretestinghelp.com/test-plan-template/",
+        "https://www.softwaretestinghelp.com/test-plan-template/",
+        "https://www.softwaretestinghelp.com/system-testing/",
+        "https://www.softwaretestinghelp.com/best-test-management-tools/",
+        "https://www.softwaretestinghelp.com/writing-test-strategy-document-template/"
+      ],
+      "citation_source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "retrieved_source_details": [
+        {
+          "source_id": "S1",
+          "document_source": "https://www.softwaretestinghelp.com/test-plan-template/",
+          "score": 0.55,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/test-plan-template/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Test Plan Template with Format and Contents",
+            "section_level": "title",
+            "page_title": "Test Plan Template with Format and Contents",
+            "chunk_index": 703,
+            "chunk_length": 769
+          }
+        },
+        {
+          "source_id": "S2",
+          "document_source": "https://www.softwaretestinghelp.com/test-plan-template/",
+          "score": 0.3472060938332602,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/test-plan-template/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "#1) Introduction",
+            "section_level": "h3",
+            "page_title": "Test Plan Template with Format and Contents",
+            "chunk_index": 704,
+            "chunk_length": 592
+          }
+        },
+        {
+          "source_id": "S3",
+          "document_source": "https://www.softwaretestinghelp.com/system-testing/",
+          "score": 0.29584587033570836,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/system-testing/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Entry/Exit Criteria",
+            "section_level": "h3",
+            "page_title": "What is System Testing in Software Testing (with Example)",
+            "chunk_index": 936,
+            "chunk_length": 721
+          }
+        },
+        {
+          "source_id": "S4",
+          "document_source": "https://www.softwaretestinghelp.com/best-test-management-tools/",
+          "score": 0.28603111380153534,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/best-test-management-tools/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "#14) Kualitee",
+            "section_level": "h3",
+            "page_title": "The 20 Popular Test Management Tools for 2026",
+            "chunk_index": 763,
+            "chunk_length": 350
+          }
+        },
+        {
+          "source_id": "S5",
+          "document_source": "https://www.softwaretestinghelp.com/writing-test-strategy-document-template/",
+          "score": 0.28155940114864947,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/writing-test-strategy-document-template/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Test Strategy Vs. Test Plan",
+            "section_level": "h3",
+            "page_title": "Test Strategy Document with Sample Test Strategy Template Example",
+            "chunk_index": 698,
+            "chunk_length": 744
+          }
+        }
+      ],
+      "context_length": 3799,
+      "context_text": "[S1] | source=https://www.softwaretestinghelp.com/test-plan-template/ | section=Test Plan Template with Format and Contents | score=0.5500\n: Test Plan Template Table of Contents (TOC) #1) Introduction #2) Scope #3) Test Strategy (Approach) #4) Environmental Needs (Test Environment) #5) Staffing and Training Needs #6) Test Schedule and Estimation #7) Test Deliverables #8) Exit Criteria #9) Suspension and Resumption Criteria #10) Responsibilities #11) Risk and Contingencies #12) Assumptions #13) Test References #14) Review and Approvals #1) Introduction #2) Scope #3) Test Strategy (Approach) #4) Environmental Needs (Test Environment) #5) Staffing and Training Needs #6) Test Schedule and Estimation #7) Test Deliverables #8) Exit Criteria #9) Suspension and Resumption Criteria #10) Responsibilities #11) Risk and Contingencies #12) Assumptions #13) Test References #14) Review and Approvals Conclusion\n\n[S2] | source=https://www.softwaretestinghelp.com/test-plan-template/ | section=#1) Introduction | score=0.3472\na) Test Plan Approach/Objective This document includes and describes the information necessary to effectively define the strategy to successfully carry out the testing of the Application Under Test. This also includes the scope of the project testing. It basically gives an idea of what will be covered in the test plan. Example: This Test Plan is documented to describe the predefined scope, approach, resources (hardware & personnel), schedule of all the testing activities of the project STH Ecommerce, way of communication, and the risks associated with and corresponding mitigation plan.\n\n[S3] | source=https://www.softwaretestinghelp.com/system-testing/ | section=Entry/Exit Criteria | score=0.2958\nLet’s take a detailed look at the Entry/Exit criteria for System Test. Entry Criteria: The system should have passed the exit criteria of Integration testing i.e. all the test cases should have been executed and there should be no critical or Priority P1, a P2 bug in an open state. Test Plan for this testing should be approved & signed off. Test cases/scenarios should be ready to be executed. Test scripts should be ready to be executed. All the non–functional requirements should be available and test cases for the same should have been created. The testing environment should be ready. Exit Criteria: All the test cases should be executed. No critical or priority or security-related bugs should be in an open state\n\n[S4] | source=https://www.softwaretestinghelp.com/best-test-management-tools/ | section=#14) Kualitee | score=0.2860\n. Price is deliberately kept affordable and flexible so that it suits all sizes of teams ranging from single testers to 100+ team organizations. Features: Intuitive and friendly interface Requirements Planning Test Case Management & Issue Tracking Custom Bug Reports Interactive Dashboard Individual and Group Progress Tracking 3rd Party Integrations\n\n[S5] | source=https://www.softwaretestinghelp.com/writing-test-strategy-document-template/ | section=Test Strategy Vs. Test Plan | score=0.2816\n. Project scope and test focus are defined in the test plan. Basically, it deals with test coverage, features to be tested, features not to be tested, estimation, scheduling and resource management. Whereas the test strategy defines guidelines for test approach to be followed in order to achieve the test objectives and execution of test types defined in the testing plan. It deals with test objectives, approaches, test environments, automation strategies and tools, and risk analysis with a contingency plan. To summarize, the Test Plan is a vision of what you want to achieve and the Test Strategy is an action plan designed to achieve this vision! I hope this will clear all your doubts. James Bach has more discussion on this topic here .",
+      "generated_answer": "A test plan should include several key components to effectively define the strategy for testing an application. According to the retrieved context, the essential elements of a test plan are as follows:\n\n1. **Introduction**: This section outlines the purpose of the test plan and provides an overview of the testing objectives and scope of the project.\n\n2. **Scope**: It defines what will be covered in the testing process, including the features to be tested and those that will not be tested.\n\n3. **Test Strategy (Approach)**: This section describes the overall approach to testing, including the types of testing to be performed and the methodologies to be used.\n\n4. **Environmental Needs**: It specifies the test environment requirements, including hardware and software configurations necessary for testing.\n\n5. **Staffing and Training Needs**: This outlines the personnel required for testing and any training they may need.\n\n6. **Test Schedule and Estimation**: It includes a timeline for testing activities and estimates of the resources needed.\n\n7. **Test Deliverables**: This section lists the expected outputs from the testing process, such as test cases, test scripts, and reports.\n\n8. **Exit Criteria**: It defines the conditions that must be met for testing to be considered complete, such as the execution of all test cases and the resolution of critical bugs.\n\n9. **Suspension and Resumption Criteria**: This outlines the conditions under which testing may be paused and the process for resuming it.\n\n10. **Responsibilities**: It details the roles and responsibilities of team members involved in the testing process.\n\n11. **Risk and Contingencies**: This section identifies potential risks associated with the testing process and outlines mitigation strategies.\n\n12. **Assumptions**: It lists any assumptions made during the planning process that could impact testing.\n\n13. **Test References**: This includes any relevant documents or standards that inform the testing process.\n\n14. **Review and Approvals**: It specifies the process for reviewing the test plan and obtaining necessary approvals [S1][S2][S5].",
+      "metrics": {
+        "citation_precision": 1.0,
+        "citation_coverage": 0.0625,
+        "citation_recall": 0.0625,
+        "faithfulness_score": 0.5121951219512195,
+        "source_level_context_precision": 0.25,
+        "source_level_context_recall": 0.5,
+        "confidence_score": 0.4992,
+        "invalid_citation_flag": false,
+        "hallucination_flag": false,
+        "is_insufficient": false,
+        "response_length": 2126,
+        "extracted_citations": [
+          "S1",
+          "S2",
+          "S5"
+        ]
+      },
+      "status": "success"
+    },
+    {
+      "id": "q004",
+      "question": "What is the difference between a test plan and a test strategy?",
+      "language": "en",
+      "expected_sources": [
+        "https://www.softwaretestinghelp.com/how-to-write-test-plan-document-software-testing-training-day3/",
+        "https://www.softwaretestinghelp.com/writing-test-strategy-document-template/"
+      ],
+      "reference_answer": "A test strategy is a high-level document that defines the overall testing approach, standards, tools, and methods. A test plan is a more detailed and project-specific document that defines scope, schedule, resources, responsibilities, and execution details for testing a particular release or project.",
+      "retrieved_sources": [
+        "https://www.softwaretestinghelp.com/test-plan-template/",
+        "https://www.softwaretestinghelp.com/test-plan-template/",
+        "https://www.softwaretestinghelp.com/system-testing/",
+        "https://www.softwaretestinghelp.com/best-test-management-tools/",
+        "https://www.softwaretestinghelp.com/writing-test-strategy-document-template/"
+      ],
+      "citation_source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "retrieved_source_details": [
+        {
+          "source_id": "S1",
+          "document_source": "https://www.softwaretestinghelp.com/test-plan-template/",
+          "score": 0.55,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/test-plan-template/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Test Plan Template with Format and Contents",
+            "section_level": "title",
+            "page_title": "Test Plan Template with Format and Contents",
+            "chunk_index": 703,
+            "chunk_length": 769
+          }
+        },
+        {
+          "source_id": "S2",
+          "document_source": "https://www.softwaretestinghelp.com/test-plan-template/",
+          "score": 0.3472060938332602,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/test-plan-template/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "#1) Introduction",
+            "section_level": "h3",
+            "page_title": "Test Plan Template with Format and Contents",
+            "chunk_index": 704,
+            "chunk_length": 592
+          }
+        },
+        {
+          "source_id": "S3",
+          "document_source": "https://www.softwaretestinghelp.com/system-testing/",
+          "score": 0.29584587033570836,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/system-testing/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Entry/Exit Criteria",
+            "section_level": "h3",
+            "page_title": "What is System Testing in Software Testing (with Example)",
+            "chunk_index": 936,
+            "chunk_length": 721
+          }
+        },
+        {
+          "source_id": "S4",
+          "document_source": "https://www.softwaretestinghelp.com/best-test-management-tools/",
+          "score": 0.28603111380153534,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/best-test-management-tools/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "#14) Kualitee",
+            "section_level": "h3",
+            "page_title": "The 20 Popular Test Management Tools for 2026",
+            "chunk_index": 763,
+            "chunk_length": 350
+          }
+        },
+        {
+          "source_id": "S5",
+          "document_source": "https://www.softwaretestinghelp.com/writing-test-strategy-document-template/",
+          "score": 0.28155940114864947,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/writing-test-strategy-document-template/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Test Strategy Vs. Test Plan",
+            "section_level": "h3",
+            "page_title": "Test Strategy Document with Sample Test Strategy Template Example",
+            "chunk_index": 698,
+            "chunk_length": 744
+          }
+        }
+      ],
+      "context_length": 3799,
+      "context_text": "[S1] | source=https://www.softwaretestinghelp.com/test-plan-template/ | section=Test Plan Template with Format and Contents | score=0.5500\n: Test Plan Template Table of Contents (TOC) #1) Introduction #2) Scope #3) Test Strategy (Approach) #4) Environmental Needs (Test Environment) #5) Staffing and Training Needs #6) Test Schedule and Estimation #7) Test Deliverables #8) Exit Criteria #9) Suspension and Resumption Criteria #10) Responsibilities #11) Risk and Contingencies #12) Assumptions #13) Test References #14) Review and Approvals #1) Introduction #2) Scope #3) Test Strategy (Approach) #4) Environmental Needs (Test Environment) #5) Staffing and Training Needs #6) Test Schedule and Estimation #7) Test Deliverables #8) Exit Criteria #9) Suspension and Resumption Criteria #10) Responsibilities #11) Risk and Contingencies #12) Assumptions #13) Test References #14) Review and Approvals Conclusion\n\n[S2] | source=https://www.softwaretestinghelp.com/test-plan-template/ | section=#1) Introduction | score=0.3472\na) Test Plan Approach/Objective This document includes and describes the information necessary to effectively define the strategy to successfully carry out the testing of the Application Under Test. This also includes the scope of the project testing. It basically gives an idea of what will be covered in the test plan. Example: This Test Plan is documented to describe the predefined scope, approach, resources (hardware & personnel), schedule of all the testing activities of the project STH Ecommerce, way of communication, and the risks associated with and corresponding mitigation plan.\n\n[S3] | source=https://www.softwaretestinghelp.com/system-testing/ | section=Entry/Exit Criteria | score=0.2958\nLet’s take a detailed look at the Entry/Exit criteria for System Test. Entry Criteria: The system should have passed the exit criteria of Integration testing i.e. all the test cases should have been executed and there should be no critical or Priority P1, a P2 bug in an open state. Test Plan for this testing should be approved & signed off. Test cases/scenarios should be ready to be executed. Test scripts should be ready to be executed. All the non–functional requirements should be available and test cases for the same should have been created. The testing environment should be ready. Exit Criteria: All the test cases should be executed. No critical or priority or security-related bugs should be in an open state\n\n[S4] | source=https://www.softwaretestinghelp.com/best-test-management-tools/ | section=#14) Kualitee | score=0.2860\n. Price is deliberately kept affordable and flexible so that it suits all sizes of teams ranging from single testers to 100+ team organizations. Features: Intuitive and friendly interface Requirements Planning Test Case Management & Issue Tracking Custom Bug Reports Interactive Dashboard Individual and Group Progress Tracking 3rd Party Integrations\n\n[S5] | source=https://www.softwaretestinghelp.com/writing-test-strategy-document-template/ | section=Test Strategy Vs. Test Plan | score=0.2816\n. Project scope and test focus are defined in the test plan. Basically, it deals with test coverage, features to be tested, features not to be tested, estimation, scheduling and resource management. Whereas the test strategy defines guidelines for test approach to be followed in order to achieve the test objectives and execution of test types defined in the testing plan. It deals with test objectives, approaches, test environments, automation strategies and tools, and risk analysis with a contingency plan. To summarize, the Test Plan is a vision of what you want to achieve and the Test Strategy is an action plan designed to achieve this vision! I hope this will clear all your doubts. James Bach has more discussion on this topic here .",
+      "generated_answer": "A test plan and a test strategy serve different purposes in the software testing process.\n\n1. **Test Plan**: The test plan defines the project scope and test focus. It outlines what will be covered in testing, including test coverage, features to be tested, features not to be tested, estimation, scheduling, and resource management. Essentially, it provides a vision of what you want to achieve in the testing process [S5].\n\n2. **Test Strategy**: In contrast, the test strategy outlines the guidelines for the test approach to be followed to achieve the test objectives. It includes details on test objectives, approaches, test environments, automation strategies and tools, and risk analysis with a contingency plan. The test strategy acts as an action plan designed to achieve the vision set forth in the test plan [S5].\n\nIn summary, the test plan is focused on the \"what\" and \"when\" of testing, while the test strategy addresses the \"how\" of achieving the testing goals.",
+      "metrics": {
+        "citation_precision": 1.0,
+        "citation_coverage": 0.25,
+        "citation_recall": 0.25,
+        "faithfulness_score": 0.6440677966101694,
+        "source_level_context_precision": 0.25,
+        "source_level_context_recall": 0.5,
+        "confidence_score": 0.6148,
+        "invalid_citation_flag": false,
+        "hallucination_flag": false,
+        "is_insufficient": false,
+        "response_length": 974,
+        "extracted_citations": [
+          "S5"
+        ]
+      },
+      "status": "success"
+    },
+    {
+      "id": "q005",
+      "question": "What is boundary value analysis and equivalence partitioning?",
+      "language": "en",
+      "expected_sources": [
+        "https://www.softwaretestinghelp.com/what-is-boundary-value-analysis-and-equivalence-partitioning/"
+      ],
+      "reference_answer": "Equivalence partitioning divides input data into valid and invalid classes where the system is expected to behave similarly, and tests representative values from each class. Boundary value analysis focuses on values at the edges of these partitions, such as minimum, maximum, just below minimum, and just above maximum, because defects often occur near boundaries.",
+      "retrieved_sources": [
+        "https://www.softwaretestinghelp.com/test-case-template-examples/",
+        "https://www.softwaretestinghelp.com/tips-to-design-test-data-before-executing-your-test-cases/",
+        "https://www.softwaretestinghelp.com/what-is-boundary-value-analysis-and-equivalence-partitioning/",
+        "https://www.softwaretestinghelp.com/what-is-boundary-value-analysis-and-equivalence-partitioning/",
+        "https://www.softwaretestinghelp.com/writing-test-cases-from-srs-software-testing-qa-training-day-4/"
+      ],
+      "citation_source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "retrieved_source_details": [
+        {
+          "source_id": "S1",
+          "document_source": "https://www.softwaretestinghelp.com/test-case-template-examples/",
+          "score": 0.55,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/test-case-template-examples/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "How to Write Test Cases (Step-by-Step)",
+            "section_level": "h2",
+            "page_title": "Test Case Template, Examples & Format (Free Download)",
+            "chunk_index": 634,
+            "chunk_length": 693
+          }
+        },
+        {
+          "source_id": "S2",
+          "document_source": "https://www.softwaretestinghelp.com/tips-to-design-test-data-before-executing-your-test-cases/",
+          "score": 0.5282367555436509,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/tips-to-design-test-data-before-executing-your-test-cases/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "How to Prepare Data That Will Ensure Maximum Test Coverage",
+            "section_level": "h3",
+            "page_title": "What is Test Data? Test Data Preparation Examples",
+            "chunk_index": 683,
+            "chunk_length": 692
+          }
+        },
+        {
+          "source_id": "S3",
+          "document_source": "https://www.softwaretestinghelp.com/what-is-boundary-value-analysis-and-equivalence-partitioning/",
+          "score": 0.48899691413253166,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/what-is-boundary-value-analysis-and-equivalence-partitioning/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Conclusion",
+            "section_level": "h2",
+            "page_title": "Boundary Value Analysis & Equivalence Partitioning Examples",
+            "chunk_index": 807,
+            "chunk_length": 466
+          }
+        },
+        {
+          "source_id": "S4",
+          "document_source": "https://www.softwaretestinghelp.com/what-is-boundary-value-analysis-and-equivalence-partitioning/",
+          "score": 0.41531567032234296,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/what-is-boundary-value-analysis-and-equivalence-partitioning/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Test Case Design Techniques",
+            "section_level": "h2",
+            "page_title": "Boundary Value Analysis & Equivalence Partitioning Examples",
+            "chunk_index": 806,
+            "chunk_length": 155
+          }
+        },
+        {
+          "source_id": "S5",
+          "document_source": "https://www.softwaretestinghelp.com/writing-test-cases-from-srs-software-testing-qa-training-day-4/",
+          "score": 0.35031971774804344,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/writing-test-cases-from-srs-software-testing-qa-training-day-4/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Test Cases Writing/Optimization Methods",
+            "section_level": "h3",
+            "page_title": "Writing Test Cases From SRS Document",
+            "chunk_index": 539,
+            "chunk_length": 636
+          }
+        }
+      ],
+      "context_length": 3470,
+      "context_text": "[S1] | source=https://www.softwaretestinghelp.com/test-case-template-examples/ | section=How to Write Test Cases (Step-by-Step) | score=0.5500\n. Step 2: Define Test Data Input data quality determines test case success. Identify the type of inputs needed to run your test cases. Valid Input Data: Regular inputs that will normally work (for example, a regular 10 digit telephone number input). Invalid Input Data: Inputs intended to “crash” the system (for example, entering symbols for a field designated for a name input). Boundary Input Data: Testing the boundaries of an input (for example, testing exactly 8 digits of password if it ranges from 8 to 16 digits). Step 3: Write Clear Steps Execution steps need to be unambiguous enough that even a first-time user without prior experience using the software is able to understand them\n\n[S2] | source=https://www.softwaretestinghelp.com/tips-to-design-test-data-before-executing-your-test-cases/ | section=How to Prepare Data That Will Ensure Maximum Test Coverage | score=0.5282\nDesign your data by considering the following categories: 1) No data: Run your test cases on blank or default data. See if proper error messages are generated. 2) Valid data set: Create it to check if the application is functioning as per requirements and valid input data is properly saved in database or files. 3) Invalid data set: Prepare invalid data set to check application behavior for negative values and alphanumeric string inputs. 4) Illegal data format: Make a data set of illegal data formats. The system should not accept data in an invalid or illegal format. Also, check if proper error messages are generated. 5) Boundary Condition dataset: Dataset containing out of range data\n\n[S3] | source=https://www.softwaretestinghelp.com/what-is-boundary-value-analysis-and-equivalence-partitioning/ | section=Conclusion | score=0.4890\nIdentifying the right test cases and the right number of test cases is very crucial for the testing process. As seen from the above discussion, Boundary Value Analysis and Equivalence Partitioning techniques can design effective test cases that are likely to detect bugs. Hope that you now have a fair bit of understanding of the Boundary Value Analysis and Equivalence Partitioning techniques. Please share your thoughts in the comments section below! PREV Tutorial\n\n[S4] | source=https://www.softwaretestinghelp.com/what-is-boundary-value-analysis-and-equivalence-partitioning/ | section=Test Case Design Techniques | score=0.4153\nThis article will explain all about Boundary Value Analysis and Equivalence Partitioning in detail, along with simple examples for your easy understanding.\n\n[S5] | source=https://www.softwaretestinghelp.com/writing-test-cases-from-srs-software-testing-qa-training-day-4/ | section=Test Cases Writing/Optimization Methods | score=0.3503\nNow, imagine a situation where a certain page has a few 10’s of fields on it or has a complex business logic that is implemented in there. To make sure that we optimize the test case creation process in situations like that, we testers have certain Test case optimization methods. Enlisted below are the links that are provided for more information on these methods. Boundary Value Analysis Equivalence Partitioning Error Guessing – This is a very simple method and relies on a tester’s intuition. For Example , Say there is a date field on a page. The requirements are going to specify that a valid date is to be accepted by this field",
+      "generated_answer": "Boundary Value Analysis (BVA) and Equivalence Partitioning (EP) are two important test case design techniques used in software testing.\n\n**Boundary Value Analysis (BVA)** focuses on testing the boundaries between partitions. It involves identifying the values at the edges of input ranges, as these are often where errors occur. For example, if a field accepts values from 1 to 10, BVA would test the values 1 and 10, as well as values just outside this range, such as 0 and 11. This technique is effective in detecting bugs that occur at the limits of input ranges [S3][S4].\n\n**Equivalence Partitioning (EP)**, on the other hand, divides input data into valid and invalid partitions. The idea is that if one test case from a partition passes or fails, all other cases in that partition will behave similarly. For instance, if a system accepts valid ages from 18 to 65, testing with a value like 30 (valid) and a value like 17 (invalid) would be sufficient to represent the entire partition of valid and invalid ages [S3][S4].\n\nBoth techniques are crucial for designing effective test cases that maximize test coverage and help ensure that the application behaves as expected under various input conditions [S2].",
+      "metrics": {
+        "citation_precision": 1.0,
+        "citation_coverage": 0.3333333333333333,
+        "citation_recall": 0.3333333333333333,
+        "faithfulness_score": 0.43037974683544306,
+        "source_level_context_precision": 0.25,
+        "source_level_context_recall": 1.0,
+        "confidence_score": 0.5437,
+        "invalid_citation_flag": false,
+        "hallucination_flag": false,
+        "is_insufficient": false,
+        "response_length": 1212,
+        "extracted_citations": [
+          "S2",
+          "S3",
+          "S4"
+        ]
+      },
+      "status": "success"
+    },
+    {
+      "id": "q006",
+      "question": "What is use case testing?",
+      "language": "en",
+      "expected_sources": [
+        "https://www.softwaretestinghelp.com/use-case-testing/"
+      ],
+      "reference_answer": "Use case testing is a black-box test design technique where test scenarios are derived from user interactions with the system. It validates functional requirements from the perspective of an actor and covers main flows, alternative flows, and exception flows.",
+      "retrieved_sources": [
+        "https://www.softwaretestinghelp.com/unit-testing/",
+        "https://www.softwaretestinghelp.com/best-online-software-testing-course/",
+        "https://www.softwaretestinghelp.com/how-to-set-defect-priority-and-severity-with-defect-triage-process/",
+        "https://www.softwaretestinghelp.com/state-transition-testing-technique-for-testing-complex-applications/",
+        "https://www.softwaretestinghelp.com/test-case-template-examples/"
+      ],
+      "citation_source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "retrieved_source_details": [
+        {
+          "source_id": "S1",
+          "document_source": "https://www.softwaretestinghelp.com/unit-testing/",
+          "score": 0.55,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/unit-testing/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "What is Unit Testing?",
+            "section_level": "h2",
+            "page_title": "Unit Testing in Software Testing",
+            "chunk_index": 866,
+            "chunk_length": 661
+          }
+        },
+        {
+          "source_id": "S2",
+          "document_source": "https://www.softwaretestinghelp.com/best-online-software-testing-course/",
+          "score": 0.4643980098744879,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/best-online-software-testing-course/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "QA Software Testing Training Course – Best Online QA Training",
+            "section_level": "title",
+            "page_title": "QA Software Testing Training Course – Best Online QA Training",
+            "chunk_index": 559,
+            "chunk_length": 753
+          }
+        },
+        {
+          "source_id": "S3",
+          "document_source": "https://www.softwaretestinghelp.com/how-to-set-defect-priority-and-severity-with-defect-triage-process/",
+          "score": 0.4624048852127571,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/how-to-set-defect-priority-and-severity-with-defect-triage-process/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "What Is Defect Severity And Priority",
+            "section_level": "h3",
+            "page_title": "Defect Severity and Priority in Testing with High Severity and Low Priority Example",
+            "chunk_index": 854,
+            "chunk_length": 670
+          }
+        },
+        {
+          "source_id": "S4",
+          "document_source": "https://www.softwaretestinghelp.com/state-transition-testing-technique-for-testing-complex-applications/",
+          "score": 0.4459266211935176,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/state-transition-testing-technique-for-testing-complex-applications/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "State Transition Testing Technique with Example",
+            "section_level": "title",
+            "page_title": "State Transition Testing Technique with Example",
+            "chunk_index": 800,
+            "chunk_length": 382
+          }
+        },
+        {
+          "source_id": "S5",
+          "document_source": "https://www.softwaretestinghelp.com/test-case-template-examples/",
+          "score": 0.44440664327132184,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/test-case-template-examples/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Test Case Template, Examples & Format (Free Download)",
+            "section_level": "title",
+            "page_title": "Test Case Template, Examples & Format (Free Download)",
+            "chunk_index": 622,
+            "chunk_length": 784
+          }
+        }
+      ],
+      "context_length": 4065,
+      "context_text": "[S1] | source=https://www.softwaretestinghelp.com/unit-testing/ | section=What is Unit Testing? | score=0.5500\nUnit Testing is not a new concept. It’s been there since the early days of programming. Usually, developers and sometimes white box testers write Unit tests to improve code quality by verifying every unit of the code used to implement functional requirements (aka test driven development TDD or test-first development). Most of us might know the classic definition – “Unit Testing is the method of verifying the smallest piece of testable code against its purpose.” If the purpose or requirement fails then the unit test has failed. In simple words, it means – writing a piece of code (unit test) to verify the code (unit) written for implementing requirements.\n\n[S2] | source=https://www.softwaretestinghelp.com/best-online-software-testing-course/ | section=QA Software Testing Training Course – Best Online QA Training | score=0.4644\nBy Vijay Full Bio > Hello friends, as you all know, we always strive to give back the knowledge that we gain from our experiences to the testing fraternity. To extend the same philosophy, we are coming up with a more structured curriculum in the form of a Software testing course. It is going to include everything there is to know for you to become a perfect Software Tester . This software testing QA training course is designed by working professionals in a way that over 40+ hours it will progress from introducing you to the basics of software testing to advanced topics like Software configuration management, creating a test plan, test estimations, etc. along with an introduction and familiarity with Automation testing and tools like QTP and QC\n\n[S3] | source=https://www.softwaretestinghelp.com/how-to-set-defect-priority-and-severity-with-defect-triage-process/ | section=What Is Defect Severity And Priority | score=0.4624\nIn the English definition, priority is used to compare two things or conditions, where one needs to be given more importance than the other(s) and needs to be tackled/resolved first before moving on to the next one(s). Therefore, in the context of defects, the priority of a defect would indicate the urgency with which it would need to be fixed. Severity, by the English definition, is used to describe the gravity of an undesirable occurrence. Hence, with bugs, the severity of a bug would indicate the effect it has on the system in terms of its impact. Who defines these? QA classifies the defect under severity based on the complexity and criticality of the defects\n\n[S4] | source=https://www.softwaretestinghelp.com/state-transition-testing-technique-for-testing-complex-applications/ | section=State Transition Testing Technique with Example | score=0.4459\n. If testing covers 2 pairs of valid transactions, then it is “1-switch” coverage, and so on. Table of Contents: What Is The State Transition Testing Technique? State Transition Testing Definition More Examples ofState Transition Technique Risks And Challenges Conclusion State Transition Testing Definition More Examples ofState Transition Technique Risks And Challenges Conclusion\n\n[S5] | source=https://www.softwaretestinghelp.com/test-case-template-examples/ | section=Test Case Template, Examples & Format (Free Download) | score=0.4444\n. Table of Contents: What is a Test Case? (Beginner Clarity Section) Test Case Template & Examples: The Ultimate Guide for QA Teams Standard Fields for a Sample Test Case Template Format #1: Download Test Case Template with Example Format #2: Download Test Case Template with Example Sample Test Cases (Ready-to-Use) Test Case Example for Manual Testing Test Case Examples (Real-World) Login Page Test Case Example E-commerce Checkout Test Cases Payment Gateway Test Cases Form Validation Test Cases Login Page Test Case Example E-commerce Checkout Test Cases Payment Gateway Test Cases Form Validation Test Cases How to Write Test Cases (Step-by-Step) Common Mistakes in Test Case Writing Recommended Test Case Writing Tool 1) Testiny 1) Testiny Frequently Asked Questions Conclusion",
+      "generated_answer": "The retrieved context is not sufficient to answer this question accurately.",
+      "metrics": {
+        "citation_precision": 0.0,
+        "citation_coverage": 0.0,
+        "citation_recall": 0.0,
+        "faithfulness_score": 0.0,
+        "source_level_context_precision": 0.0,
+        "source_level_context_recall": 0.0,
+        "confidence_score": 0.0,
+        "invalid_citation_flag": false,
+        "hallucination_flag": false,
+        "is_insufficient": true,
+        "response_length": 75,
+        "extracted_citations": []
+      },
+      "status": "success"
+    },
+    {
+      "id": "q007",
+      "question": "What is the difference between smoke testing and sanity testing?",
+      "language": "en",
+      "expected_sources": [
+        "https://www.softwaretestinghelp.com/smoke-testing-and-sanity-testing-difference/"
+      ],
+      "reference_answer": "Smoke testing is a broad and shallow set of tests performed on a new build to verify that critical functionality works and the build is stable enough for further testing. Sanity testing is a narrow and focused set of tests performed after minor changes or bug fixes to verify that specific functionality works as expected.",
+      "retrieved_sources": [
+        "explore_it_reduce_risk_and_increase_confidence_with_exploratory.pdf",
+        "https://www.softwaretestinghelp.com/smoke-testing-and-sanity-testing-difference/",
+        "https://www.softwaretestinghelp.com/smoke-testing-and-sanity-testing-difference/",
+        "https://www.softwaretestinghelp.com/unit-testing/",
+        "https://www.softwaretestinghelp.com/smoke-testing-and-sanity-testing-difference/"
+      ],
+      "citation_source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "retrieved_source_details": [
+        {
+          "source_id": "S1",
+          "document_source": "explore_it_reduce_risk_and_increase_confidence_with_exploratory.pdf",
+          "score": 0.4922103101074255,
+          "metadata": {
+            "source": "explore_it_reduce_risk_and_increase_confidence_with_exploratory.pdf",
+            "type": "pdf",
+            "page": 16,
+            "domain": null,
+            "file_path": "F:\\LLM\\llm-qa-assistant\\data\\pdfs\\explore_it_reduce_risk_and_increase_confidence_with_exploratory.pdf",
+            "section_title": null,
+            "section_level": null,
+            "page_title": null,
+            "chunk_index": 159,
+            "chunk_length": 723
+          }
+        },
+        {
+          "source_id": "S2",
+          "document_source": "https://www.softwaretestinghelp.com/smoke-testing-and-sanity-testing-difference/",
+          "score": 0.4874804006269989,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/smoke-testing-and-sanity-testing-difference/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Smoke Test VsBuild Acceptance Testing",
+            "section_level": "h3",
+            "page_title": "Smoke Testing and Sanity Testing Difference with Examples",
+            "chunk_index": 887,
+            "chunk_length": 565
+          }
+        },
+        {
+          "source_id": "S3",
+          "document_source": "https://www.softwaretestinghelp.com/smoke-testing-and-sanity-testing-difference/",
+          "score": 0.4634846549402073,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/smoke-testing-and-sanity-testing-difference/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Smoke Test Cycle",
+            "section_level": "h3",
+            "page_title": "Smoke Testing and Sanity Testing Difference with Examples",
+            "chunk_index": 888,
+            "chunk_length": 297
+          }
+        },
+        {
+          "source_id": "S4",
+          "document_source": "https://www.softwaretestinghelp.com/unit-testing/",
+          "score": 0.46060328347286145,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/unit-testing/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "What is Unit Testing?",
+            "section_level": "h2",
+            "page_title": "Unit Testing in Software Testing",
+            "chunk_index": 866,
+            "chunk_length": 661
+          }
+        },
+        {
+          "source_id": "S5",
+          "document_source": "https://www.softwaretestinghelp.com/smoke-testing-and-sanity-testing-difference/",
+          "score": 0.45157945228062313,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/smoke-testing-and-sanity-testing-difference/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Sanity Testing",
+            "section_level": "h3",
+            "page_title": "Smoke Testing and Sanity Testing Difference with Examples",
+            "chunk_index": 881,
+            "chunk_length": 745
+          }
+        }
+      ],
+      "context_length": 3629,
+      "context_text": "[S1] | source=explore_it_reduce_risk_and_increase_confidence_with_exploratory.pdf | score=0.4922\n. If you want to learn about the real capabilities and limitations of your software, you have to navigate off the beaten path. Yet there is a difference between wandering at random and real exploring, as Jessica Hagy captured so eloquently in her Indexed web comic titled “Field notes.” 1 Jessica’s comic carries an important word of warning. If you meander without direction or purpose, you’ll spend much time wandering for precious little insight: you’ll be lost. This is a book about how to explore well. Within these pages you’ll discover the essential skills and techniques of a master explorer. 1. Cartoon by Jessica Hagy, used with permission (http://thisisindexed.com/2011/10/field-notes/). report erratum • discuss\n\n[S2] | source=https://www.softwaretestinghelp.com/smoke-testing-and-sanity-testing-difference/ | section=Smoke Test VsBuild Acceptance Testing | score=0.4875\nSmoke Testing is directly related to Build Acceptance Testing (BAT). In BAT, we do the same testing – to verify if the build has not failed and if the system is working fine or not. Sometimes, it happens that when a build is created, some issues get introduced and when it is delivered, the build doesn’t work for the QA. I would say that BAT is a part of a smoke check because if the system is failing, then how can you as a QA accept the build for testing? Not just the functionalities, the system itself has to work before the QA’s proceed with In-Depth Testing.\n\n[S3] | source=https://www.softwaretestinghelp.com/smoke-testing-and-sanity-testing-difference/ | section=Smoke Test Cycle | score=0.4635\nThe following flowchart explains the Smoke Testing Cycle. Once a build is deployed to QA, the basic cycle followed is that if the smoke test passes, the build is accepted by the QA team for further testing but if it fails, then the build is rejected until the reported issues are fixed. Test Cycle\n\n[S4] | source=https://www.softwaretestinghelp.com/unit-testing/ | section=What is Unit Testing? | score=0.4606\nUnit Testing is not a new concept. It’s been there since the early days of programming. Usually, developers and sometimes white box testers write Unit tests to improve code quality by verifying every unit of the code used to implement functional requirements (aka test driven development TDD or test-first development). Most of us might know the classic definition – “Unit Testing is the method of verifying the smallest piece of testable code against its purpose.” If the purpose or requirement fails then the unit test has failed. In simple words, it means – writing a piece of code (unit test) to verify the code (unit) written for implementing requirements.\n\n[S5] | source=https://www.softwaretestinghelp.com/smoke-testing-and-sanity-testing-difference/ | section=Sanity Testing | score=0.4516\nSanity Testing is done when as a QA we do not have sufficient time to run all the test cases, be it Functional Testing , UI, OS or Browser Testing. Hence, we can define, “Sanity Testing as a test execution which is done to touch each implementation and its impact but not thoroughly or in-depth, it may include functional, UI, version, etc. testing depending on the implementation and its impact.” Don’t we all fall into a situation where we have to sign off in a day or two but the build for testing is still not released? Ah yes, I bet you must have also faced this situation at least once in your Software Testing experience. Well, I faced it a lot because my project(s) were mostly agile and at times we were asked to deliver it the same day",
+      "generated_answer": "Smoke testing and sanity testing are both important testing methodologies in software quality assurance, but they serve different purposes and are conducted under different circumstances.\n\n**Smoke Testing** is primarily focused on verifying whether the basic functionalities of a build are working correctly. It is often referred to as Build Acceptance Testing (BAT), where the goal is to ensure that the build has not failed and that the system is functioning properly before proceeding to more in-depth testing. If the smoke test passes, the build is accepted for further testing; if it fails, the build is rejected until the issues are resolved [S2][S3].\n\n**Sanity Testing**, on the other hand, is performed when there is insufficient time to execute all test cases. It involves a quick check to ensure that the specific functionalities are working as expected after changes have been made, but it does not cover all aspects in depth. Sanity testing may include various types of testing, such as functional and UI testing, depending on the implementation and its impact [S5].\n\nIn summary, smoke testing is a broader check of the overall functionality of a build, while sanity testing is a more focused assessment of specific functionalities when time is constrained.",
+      "metrics": {
+        "citation_precision": 1.0,
+        "citation_coverage": 0.25,
+        "citation_recall": 0.25,
+        "faithfulness_score": 0.4659090909090909,
+        "source_level_context_precision": 0.3333333333333333,
+        "source_level_context_recall": 1.0,
+        "confidence_score": 0.5347,
+        "invalid_citation_flag": false,
+        "hallucination_flag": false,
+        "is_insufficient": false,
+        "response_length": 1269,
+        "extracted_citations": [
+          "S2",
+          "S3",
+          "S5"
+        ]
+      },
+      "status": "success"
+    },
+    {
+      "id": "q008",
+      "question": "What is non-functional testing?",
+      "language": "en",
+      "expected_sources": [
+        "https://www.softwaretestinghelp.com/what-is-non-functional-testing/"
+      ],
+      "reference_answer": "Non-functional testing evaluates quality attributes of a system rather than specific functional behavior. It checks aspects such as performance, load handling, stress capacity, security, usability, compatibility, reliability, and installation behavior.",
+      "retrieved_sources": [
+        "https://www.softwaretestinghelp.com/unit-testing/",
+        "https://www.softwaretestinghelp.com/what-is-non-functional-testing/",
+        "https://www.softwaretestinghelp.com/tips-to-design-test-data-before-executing-your-test-cases/",
+        "https://www.softwaretestinghelp.com/how-is-cross-browser-testing-performed/",
+        "https://www.softwaretestinghelp.com/software-compatibility-testing/"
+      ],
+      "citation_source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "retrieved_source_details": [
+        {
+          "source_id": "S1",
+          "document_source": "https://www.softwaretestinghelp.com/unit-testing/",
+          "score": 0.55,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/unit-testing/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "What is Unit Testing?",
+            "section_level": "h2",
+            "page_title": "Unit Testing in Software Testing",
+            "chunk_index": 866,
+            "chunk_length": 661
+          }
+        },
+        {
+          "source_id": "S2",
+          "document_source": "https://www.softwaretestinghelp.com/what-is-non-functional-testing/",
+          "score": 0.4827238102622403,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/what-is-non-functional-testing/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Conclusion",
+            "section_level": "h2",
+            "page_title": "What is Non Functional Testing? Its Types and Tools",
+            "chunk_index": 987,
+            "chunk_length": 797
+          }
+        },
+        {
+          "source_id": "S3",
+          "document_source": "https://www.softwaretestinghelp.com/tips-to-design-test-data-before-executing-your-test-cases/",
+          "score": 0.47090377237369013,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/tips-to-design-test-data-before-executing-your-test-cases/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Data for Black Box Testing",
+            "section_level": "h3",
+            "page_title": "What is Test Data? Test Data Preparation Examples",
+            "chunk_index": 685,
+            "chunk_length": 739
+          }
+        },
+        {
+          "source_id": "S4",
+          "document_source": "https://www.softwaretestinghelp.com/how-is-cross-browser-testing-performed/",
+          "score": 0.45723186344722366,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/how-is-cross-browser-testing-performed/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Conclusion",
+            "section_level": "h2",
+            "page_title": "What is Cross Browser Testing: Tools for Desktop & Mobile",
+            "chunk_index": 601,
+            "chunk_length": 719
+          }
+        },
+        {
+          "source_id": "S5",
+          "document_source": "https://www.softwaretestinghelp.com/software-compatibility-testing/",
+          "score": 0.4331233441103708,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/software-compatibility-testing/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "What is Software Compatibility Testing?",
+            "section_level": "h3",
+            "page_title": "What is Software Compatibility Testing?",
+            "chunk_index": 1070,
+            "chunk_length": 771
+          }
+        }
+      ],
+      "context_length": 4350,
+      "context_text": "[S1] | source=https://www.softwaretestinghelp.com/unit-testing/ | section=What is Unit Testing? | score=0.5500\nUnit Testing is not a new concept. It’s been there since the early days of programming. Usually, developers and sometimes white box testers write Unit tests to improve code quality by verifying every unit of the code used to implement functional requirements (aka test driven development TDD or test-first development). Most of us might know the classic definition – “Unit Testing is the method of verifying the smallest piece of testable code against its purpose.” If the purpose or requirement fails then the unit test has failed. In simple words, it means – writing a piece of code (unit test) to verify the code (unit) written for implementing requirements.\n\n[S2] | source=https://www.softwaretestinghelp.com/what-is-non-functional-testing/ | section=Conclusion | score=0.4827\nBefore performing non-functional testing, it is essential to plan the testing strategy correctly to ensure proper testing. Different tools are available in the market to perform this type of test like Load Runner, RPT, etc. This testing plays a major role in the success of an application and in building up good customer relationships hence it should not be neglected. This is an important part of software testing and testing cannot be considered complete without this. We can include non-functional testing details in the test plan or we can create a separate strategy for it. In either case, the goal is to have proper coverage of non-functional aspects of the software. We hope that this process of delving deep into this topic has been as much fun for you as it has been presented to you all\n\n[S3] | source=https://www.softwaretestinghelp.com/tips-to-design-test-data-before-executing-your-test-cases/ | section=Data for Black Box Testing | score=0.4709\nQuality Assurance Testers perform integration testing, system testing and acceptance testing, which is known as black box testing. In this method of testing, the testers do not have any work in the internal structure, design and the code of the application under the test. The tester’s primary purpose is to identify and locate errors. By doing so, we apply either functional or non-functional testing using different techniques of black box testing. Figure 4: Black Box Data Design Methods At this point, the testers need the test data as input for executing and implementing the techniques of the black box testing. The testers should prepare data that will examine all application functionality without exceeding the given cost and time\n\n[S4] | source=https://www.softwaretestinghelp.com/how-is-cross-browser-testing-performed/ | section=Conclusion | score=0.4572\nA few points to note to conclude, Having been a QA teacher for a while now, I can tell what’s coming next; the question is, is it functional and non-functional testing? I think it is neither and both. It should not be confused with Cross-Platform testing, which involves testing your application in multiple target environments like Windows, Linux, Mac, etc. However, sometimes the two have to integrate as some older browser versions might only be compatible with older versions of the platforms. It is also a continuous process, as software environments, browsers, and devices are evolving daily. To ensure there are no unpleasant surprises, this browser testing should be added to the repertoire of regression suites\n\n[S5] | source=https://www.softwaretestinghelp.com/software-compatibility-testing/ | section=What is Software Compatibility Testing? | score=0.4331\nCompatibility is non-functional testing to ensure customer satisfaction. It is to determine whether your software application or product is proficient enough to run in different browsers, databases, hardware, operating systems, mobile devices, and networks. The application could also be impacted due to different versions, resolutions, internet speed configurations, etc. Hence it’s important to test the application in all possible manners to reduce failures and overcome the embarrassment of bug leakage. As a Non- functional test, Compatibility testing is to endorse that the application runs properly in different browsers, versions, OS, and networks successfully. Compatibility tests should always be performed in a real environment instead of a virtual environment",
+      "generated_answer": "Non-functional testing is a type of software testing that focuses on the non-functional aspects of an application, such as performance, usability, reliability, and compatibility. Its primary goal is to ensure that the software meets certain criteria that are not related to specific functionalities but are crucial for user satisfaction and overall system performance.\n\nOne specific area of non-functional testing is compatibility testing, which determines whether a software application can run effectively across different browsers, databases, hardware, operating systems, mobile devices, and networks. This type of testing is essential to reduce failures and prevent issues related to bug leakage, ensuring that the application operates correctly in various environments and configurations [S5]. \n\nAdditionally, proper planning of the testing strategy is vital for non-functional testing to ensure comprehensive coverage of these aspects. Various tools are available to assist in performing non-functional tests, and it is an important part of the overall testing process that should not be overlooked [S2].",
+      "metrics": {
+        "citation_precision": 1.0,
+        "citation_coverage": 0.3333333333333333,
+        "citation_recall": 0.3333333333333333,
+        "faithfulness_score": 0.6025641025641025,
+        "source_level_context_precision": 0.2,
+        "source_level_context_recall": 1.0,
+        "confidence_score": 0.6212,
+        "invalid_citation_flag": false,
+        "hallucination_flag": false,
+        "is_insufficient": false,
+        "response_length": 1110,
+        "extracted_citations": [
+          "S2",
+          "S5"
+        ]
+      },
+      "status": "success"
+    },
+    {
+      "id": "q009",
+      "question": "What is regression testing and when should it be performed?",
+      "language": "en",
+      "expected_sources": [
+        "https://www.softwaretestinghelp.com/regression-testing-tools-and-methods/"
+      ],
+      "reference_answer": "Regression testing verifies that recent code changes, bug fixes, configuration updates, or new features have not broken existing functionality. It should be performed whenever software is modified, before releases, after bug fixes, and when integrations or environments change.",
+      "retrieved_sources": [
+        "https://www.softwaretestinghelp.com/regression-testing-tools-and-methods/",
+        "https://www.softwaretestinghelp.com/unit-testing/",
+        "https://www.softwaretestinghelp.com/how-is-cross-browser-testing-performed/",
+        "https://www.softwaretestinghelp.com/regression-testing-tools-and-methods/",
+        "https://www.softwaretestinghelp.com/how-is-cross-browser-testing-performed/"
+      ],
+      "citation_source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "retrieved_source_details": [
+        {
+          "source_id": "S1",
+          "document_source": "https://www.softwaretestinghelp.com/regression-testing-tools-and-methods/",
+          "score": 0.55,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/regression-testing-tools-and-methods/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "When to Perform Regression Tests?",
+            "section_level": "h2",
+            "page_title": "What is Regression Testing: Examples and Tools",
+            "chunk_index": 899,
+            "chunk_length": 765
+          }
+        },
+        {
+          "source_id": "S2",
+          "document_source": "https://www.softwaretestinghelp.com/unit-testing/",
+          "score": 0.5039723332253687,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/unit-testing/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Importance of Writing Unit Tests",
+            "section_level": "h3",
+            "page_title": "Unit Testing in Software Testing",
+            "chunk_index": 868,
+            "chunk_length": 708
+          }
+        },
+        {
+          "source_id": "S3",
+          "document_source": "https://www.softwaretestinghelp.com/how-is-cross-browser-testing-performed/",
+          "score": 0.49429421954115543,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/how-is-cross-browser-testing-performed/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "When is the B est Time to Do This",
+            "section_level": "h3",
+            "page_title": "What is Cross Browser Testing: Tools for Desktop & Mobile",
+            "chunk_index": 600,
+            "chunk_length": 719
+          }
+        },
+        {
+          "source_id": "S4",
+          "document_source": "https://www.softwaretestinghelp.com/regression-testing-tools-and-methods/",
+          "score": 0.4616678116343644,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/regression-testing-tools-and-methods/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "What Do We Do With Regression Checks?",
+            "section_level": "h2",
+            "page_title": "What is Regression Testing: Examples and Tools",
+            "chunk_index": 916,
+            "chunk_length": 791
+          }
+        },
+        {
+          "source_id": "S5",
+          "document_source": "https://www.softwaretestinghelp.com/how-is-cross-browser-testing-performed/",
+          "score": 0.45854484212763535,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/how-is-cross-browser-testing-performed/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Conclusion",
+            "section_level": "h2",
+            "page_title": "What is Cross Browser Testing: Tools for Desktop & Mobile",
+            "chunk_index": 601,
+            "chunk_length": 719
+          }
+        }
+      ],
+      "context_length": 4397,
+      "context_text": "[S1] | source=https://www.softwaretestinghelp.com/regression-testing-tools-and-methods/ | section=When to Perform Regression Tests? | score=0.5500\nRegression Testing is usually performed after verification of changes or new functionality. But this is not always the case. For releases that are taking months to complete, regression tests must be incorporated into the daily test cycle. For weekly releases, regression tests can be performed when Functional Testing is over for the changes. Regression checking is a variation of retest (which is simply to repeat a test). When retesting, the reason can be anything. Say, you were testing a particular feature and it was the end of the day- you could not finish testing and had to stop the process without deciding if the test passed/failed. The next day when you come back, you perform the test once more – that means you are repeating a test you performed before\n\n[S2] | source=https://www.softwaretestinghelp.com/unit-testing/ | section=Importance of Writing Unit Tests | score=0.5040\nUnit Testing is used to design robust software components that help maintain code and eliminate issues in code units. We all know the importance of finding and fixing defects in the early stages of the software development cycle. This testing serves the same purpose. It is an integral part of the agile software development process. When a nightly build is run the unit test suite should run and a report should be generated. If any of the unit tests have failed then the QA team should not accept that build for verification. If we set this as a standard process, many defects would be caught in the early development cycle, thereby saving much testing time. I know many developers hate to write unit tests\n\n[S3] | source=https://www.softwaretestinghelp.com/how-is-cross-browser-testing-performed/ | section=When is the B est Time to Do This | score=0.4943\nAny kind of testing reaps the best benefits when done early on. Therefore, the industry recommendation is to start with it as soon as the page designs are available. But it can also be performed when the site is fully integrated and functional. If you have missed the bus on performing the cross-browser test during the design, development, and QA phases, it can still be done while the application is in production. However, this is the costliest of all and risky too. Where isbrowser compatibility testing performed? Usually, the answer to this question would be one of the Dev/QA/Production environments . But for cross-browser checking, this is not definite and irrelevant. It can be done in any one or all of them.\n\n[S4] | source=https://www.softwaretestinghelp.com/regression-testing-tools-and-methods/ | section=What Do We Do With Regression Checks? | score=0.4617\nRe-run the previously conducted tests. Compare the current results with previously executed test results This is a continuous process performed at various stages throughout the software testing lifecycle. Best practice is to conduct a Regression test after Sanity or Smoke Testing and at the end of Functional testing for a short release. In order to conduct effective testing, a regression Test Plan should be created. This plan should outline the regression testing strategy and the exit criteria. Performance Testing is also a part of this test to make sure that the system performance is not affected due to the changes made in the system components. Best practices :Run automated test cases every day in the evening so that any regression side effects can be fixed in the next day build\n\n[S5] | source=https://www.softwaretestinghelp.com/how-is-cross-browser-testing-performed/ | section=Conclusion | score=0.4585\nA few points to note to conclude, Having been a QA teacher for a while now, I can tell what’s coming next; the question is, is it functional and non-functional testing? I think it is neither and both. It should not be confused with Cross-Platform testing, which involves testing your application in multiple target environments like Windows, Linux, Mac, etc. However, sometimes the two have to integrate as some older browser versions might only be compatible with older versions of the platforms. It is also a continuous process, as software environments, browsers, and devices are evolving daily. To ensure there are no unpleasant surprises, this browser testing should be added to the repertoire of regression suites",
+      "generated_answer": "Regression testing is a type of software testing that involves re-running previously conducted tests to ensure that recent changes or new functionalities have not adversely affected existing features. This process includes comparing current test results with those from previous executions to identify any discrepancies or defects introduced by the changes made in the software [S1][S4].\n\nRegression testing should be performed after verification of changes or new functionality. For projects with lengthy release cycles, it is advisable to incorporate regression tests into the daily testing routine. In cases of weekly releases, regression tests can be conducted after the completion of functional testing for the changes made. Best practices suggest conducting regression tests after sanity or smoke testing and at the end of functional testing, especially for shorter release cycles [S1][S4].",
+      "metrics": {
+        "citation_precision": 1.0,
+        "citation_coverage": 0.3333333333333333,
+        "citation_recall": 0.3333333333333333,
+        "faithfulness_score": 0.5901639344262295,
+        "source_level_context_precision": 0.3333333333333333,
+        "source_level_context_recall": 1.0,
+        "confidence_score": 0.6156,
+        "invalid_citation_flag": false,
+        "hallucination_flag": false,
+        "is_insufficient": false,
+        "response_length": 896,
+        "extracted_citations": [
+          "S1",
+          "S4"
+        ]
+      },
+      "status": "success"
+    },
+    {
+      "id": "q010",
+      "question": "What is requirements traceability matrix and why is it useful?",
+      "language": "en",
+      "expected_sources": [
+        "https://www.softwaretestinghelp.com/requirements-traceability-matrix/"
+      ],
+      "reference_answer": "A Requirements Traceability Matrix, or RTM, maps requirements to test cases. It helps ensure test coverage, identify missing tests or uncovered requirements, support change impact analysis, and provide visibility into requirement validation status.",
+      "retrieved_sources": [
+        "https://www.softwaretestinghelp.com/test-case-template-examples/",
+        "https://www.softwaretestinghelp.com/requirements-traceability-matrix/",
+        "https://www.softwaretestinghelp.com/requirements-traceability-matrix/",
+        "https://www.softwaretestinghelp.com/best-test-management-tools/",
+        "https://www.softwaretestinghelp.com/requirements-traceability-matrix/"
+      ],
+      "citation_source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "retrieved_source_details": [
+        {
+          "source_id": "S1",
+          "document_source": "https://www.softwaretestinghelp.com/test-case-template-examples/",
+          "score": 0.55,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/test-case-template-examples/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "How to Write Test Cases (Step-by-Step)",
+            "section_level": "h2",
+            "page_title": "Test Case Template, Examples & Format (Free Download)",
+            "chunk_index": 633,
+            "chunk_length": 790
+          }
+        },
+        {
+          "source_id": "S2",
+          "document_source": "https://www.softwaretestinghelp.com/requirements-traceability-matrix/",
+          "score": 0.5318895180842804,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/requirements-traceability-matrix/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Types Of Traceability Matrix",
+            "section_level": "h3",
+            "page_title": "Requirements Traceability Matrix (RTM) with Example Template",
+            "chunk_index": 648,
+            "chunk_length": 664
+          }
+        },
+        {
+          "source_id": "S3",
+          "document_source": "https://www.softwaretestinghelp.com/requirements-traceability-matrix/",
+          "score": 0.5122170198132023,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/requirements-traceability-matrix/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "What Is Test Coverage?",
+            "section_level": "h3",
+            "page_title": "Requirements Traceability Matrix (RTM) with Example Template",
+            "chunk_index": 651,
+            "chunk_length": 592
+          }
+        },
+        {
+          "source_id": "S4",
+          "document_source": "https://www.softwaretestinghelp.com/best-test-management-tools/",
+          "score": 0.47690605635958194,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/best-test-management-tools/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "#21) Requirements and Test Management for Jira (RTM)",
+            "section_level": "h3",
+            "page_title": "The 20 Popular Test Management Tools for 2026",
+            "chunk_index": 779,
+            "chunk_length": 767
+          }
+        },
+        {
+          "source_id": "S5",
+          "document_source": "https://www.softwaretestinghelp.com/requirements-traceability-matrix/",
+          "score": 0.39921849651907154,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/requirements-traceability-matrix/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Important Points To Note",
+            "section_level": "h3",
+            "page_title": "Requirements Traceability Matrix (RTM) with Example Template",
+            "chunk_index": 656,
+            "chunk_length": 689
+          }
+        }
+      ],
+      "context_length": 4205,
+      "context_text": "[S1] | source=https://www.softwaretestinghelp.com/test-case-template-examples/ | section=How to Write Test Cases (Step-by-Step) | score=0.5500\nCreating a test case is both an art and a science. It calls for profound knowledge of the application and thoroughness in writing documents. Below are four important principles for creating quality test cases. Step 1: Understand Requirements Before you even start writing test cases, you have to comprehend what the application should do. Use such documents as the Business Requirement Document (BRD) or Software Requirement Specification (SRS). The Target: Specify “Success Criteria” for the feature. Traceability: Relate each test case to the corresponding requirement through RTM (Requirements Traceability Matrix). It will ensure 100% coverage by tests and prove to the stakeholders that all features were tested. Step 2: Define Test Data Input data quality determines test case success\n\n[S2] | source=https://www.softwaretestinghelp.com/requirements-traceability-matrix/ | section=Types Of Traceability Matrix | score=0.5319\nIn ‘Forward Traceability’ Requirements to the Test cases. It ensures that the project progresses as per the desired direction and that every requirement is tested thoroughly. The Test Cases are mapped with the Requirements in ‘Backward Traceability’. Its main purpose is to ensure that the current product being developed is on the right track. It also helps to determine that no extra unspecified functionalities are added and thus the scope of the project is affected. (Forward + Backward): A Good Traceability matrix has references from test cases to requirements and vice versa (requirements to test cases). This is referred to as ‘Bi-Directional’ Traceability\n\n[S3] | source=https://www.softwaretestinghelp.com/requirements-traceability-matrix/ | section=What Is Test Coverage? | score=0.5122\nTest Coverage states which requirements of the customers are to be verified when the testing phase starts. Test Coverage is a term that determines whether the test cases are written and executed to ensure to test the software application completely, in such a way that minimal or NIL defects are reported. How to achieve Test Coverage? The maximum Test Coverage can be achieved by establishing good ‘Requirement Traceability’. Mapping all internal defects to the test cases designed Mapping all the Customer Reported Defects (CRD) to individual test cases for the future regression test suite\n\n[S4] | source=https://www.softwaretestinghelp.com/best-test-management-tools/ | section=#21) Requirements and Test Management for Jira (RTM) | score=0.4769\n. Make yourself comfortable by managing your requirements and tests in Jira! Key Features: Easy-to-use QA process out of the box. Effortless, plug-and-play configuration. Built-in requirements management. Solid support for Jira native functionalities. Tree-structured view with folders and subfolders for each module. End-to-end software project traceability. Built-in REST API to connect Jira to your test automation tools. User-friendly reports for optimal progress tracking: Traceability Matrix, Requirement Coverage, Test Execution, and Test Case Execution (User Dashboard available). Hassle-free migration of Test Cases from external tools. Best Suited For: Standardized testing workflow Requirements testing Documentation testing Manual UI testing Agile testing\n\n[S5] | source=https://www.softwaretestinghelp.com/requirements-traceability-matrix/ | section=Important Points To Note | score=0.3992\n. If a certain business and/or functional requirement were to change, a TM helps estimate or analyze the impact on the QA team’s work in terms of revisiting/reworking on the test cases. Additionally, A Traceability Matrix is not a Manual Testing specific tool, it can be used for Automation projects as well. For an Automation project, the test case ID can indicate the Automation Test script name. It is also not a tool that can be used just by the QAs. The development team can use the same to map BRD/FSD requirements to blocks/units/conditions of code created to make sure all the requirements are developed. Test Management tools like HP ALM come with the inbuilt traceability feature",
+      "generated_answer": "A Requirements Traceability Matrix (RTM) is a tool used to ensure that all requirements defined for a system are tested throughout the development process. It maps test cases to their corresponding requirements, facilitating both forward and backward traceability. Forward traceability ensures that the project progresses according to the desired direction by confirming that every requirement is tested thoroughly. Backward traceability verifies that the current product being developed aligns with the specified requirements, preventing the addition of unspecified functionalities that could affect the project scope. A well-structured RTM provides bi-directional traceability, linking test cases back to requirements and vice versa, which is crucial for comprehensive testing and validation of the software product [S2].\n\nThe usefulness of an RTM lies in its ability to provide clear visibility into the testing process, ensuring that all requirements are covered by test cases. This helps in achieving maximum test coverage, which is essential for minimizing defects in the final product. Additionally, an RTM can assist in assessing the impact of any changes to business or functional requirements on the QA team's work, guiding them in revisiting or reworking test cases as necessary [S3][S5].",
+      "metrics": {
+        "citation_precision": 1.0,
+        "citation_coverage": 0.25,
+        "citation_recall": 0.25,
+        "faithfulness_score": 0.5760869565217391,
+        "source_level_context_precision": 0.3333333333333333,
+        "source_level_context_recall": 1.0,
+        "confidence_score": 0.5842,
+        "invalid_citation_flag": false,
+        "hallucination_flag": false,
+        "is_insufficient": false,
+        "response_length": 1299,
+        "extracted_citations": [
+          "S2",
+          "S3",
+          "S5"
+        ]
+      },
+      "status": "success"
+    },
+    {
+      "id": "q011",
+      "question": "What is test coverage?",
+      "language": "en",
+      "expected_sources": [
+        "https://www.softwaretestinghelp.com/test-coverage/"
+      ],
+      "reference_answer": "Test coverage measures how much of the application, requirements, code, or functionality is exercised by test cases. It helps identify gaps in testing and provides insight into whether important areas of the system have been validated.",
+      "retrieved_sources": [
+        "a_friendly_introduction_to_software_testing_9781523477371_compress.pdf",
+        "https://www.softwaretestinghelp.com/best-test-management-tools/",
+        "https://www.softwaretestinghelp.com/requirements-traceability-matrix/",
+        "a_friendly_introduction_to_software_testing_9781523477371_compress.pdf",
+        "https://www.softwaretestinghelp.com/test-coverage/"
+      ],
+      "citation_source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "retrieved_source_details": [
+        {
+          "source_id": "S1",
+          "document_source": "a_friendly_introduction_to_software_testing_9781523477371_compress.pdf",
+          "score": 0.55,
+          "metadata": {
+            "source": "a_friendly_introduction_to_software_testing_9781523477371_compress.pdf",
+            "type": "pdf",
+            "page": 127,
+            "domain": null,
+            "file_path": "F:\\LLM\\llm-qa-assistant\\data\\pdfs\\a_friendly_introduction_to_software_testing_9781523477371_compress.pdf",
+            "section_title": null,
+            "section_level": null,
+            "page_title": null,
+            "chunk_index": 66,
+            "chunk_length": 753
+          }
+        },
+        {
+          "source_id": "S2",
+          "document_source": "https://www.softwaretestinghelp.com/best-test-management-tools/",
+          "score": 0.5463213346287149,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/best-test-management-tools/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "#4) QACoverage",
+            "section_level": "h3",
+            "page_title": "The 20 Popular Test Management Tools for 2026",
+            "chunk_index": 744,
+            "chunk_length": 466
+          }
+        },
+        {
+          "source_id": "S3",
+          "document_source": "https://www.softwaretestinghelp.com/requirements-traceability-matrix/",
+          "score": 0.5034873805782427,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/requirements-traceability-matrix/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "What Is Test Coverage?",
+            "section_level": "h3",
+            "page_title": "Requirements Traceability Matrix (RTM) with Example Template",
+            "chunk_index": 651,
+            "chunk_length": 592
+          }
+        },
+        {
+          "source_id": "S4",
+          "document_source": "a_friendly_introduction_to_software_testing_9781523477371_compress.pdf",
+          "score": 0.49350046421182764,
+          "metadata": {
+            "source": "a_friendly_introduction_to_software_testing_9781523477371_compress.pdf",
+            "type": "pdf",
+            "page": 125,
+            "domain": null,
+            "file_path": "F:\\LLM\\llm-qa-assistant\\data\\pdfs\\a_friendly_introduction_to_software_testing_9781523477371_compress.pdf",
+            "section_title": null,
+            "section_level": null,
+            "page_title": null,
+            "chunk_index": 59,
+            "chunk_length": 674
+          }
+        },
+        {
+          "source_id": "S5",
+          "document_source": "https://www.softwaretestinghelp.com/test-coverage/",
+          "score": 0.4850967569253244,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/test-coverage/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "What is Test Coverage in Software Testing? How to Improve It",
+            "section_level": "title",
+            "page_title": "What is Test Coverage in Software Testing? How to Improve It",
+            "chunk_index": 662,
+            "chunk_length": 361
+          }
+        }
+      ],
+      "context_length": 3447,
+      "context_text": "[S1] | source=a_friendly_introduction_to_software_testing_9781523477371_compress.pdf | score=0.5500\n14.9. CODE COVERAGE 127 From a code coverage perspective, we have 100% code coverage and 100% method coverage—the only method in the class is called from a test, and every statement in the method is executed. However, callingmoo() with amooLevel parameter of 0 will cause aDivideByZeroException to be thrown. This defect will not be discovered by the test case, despite every statement being executed. Although not foolproof, ensuring that you’ve checked every equivalence class will help to ameliorate situations like this. In fact, code coverage metrics can be even more misleading than this example. As long as a statement is executed by the test, that code is considered “covered”. Nothing verifies that the unit tests actually test anything, though\n\n[S2] | source=https://www.softwaretestinghelp.com/best-test-management-tools/ | section=#4) QACoverage | score=0.5463\n. Create a working backlog for easy sprint planning. Gherkin format test cases support. Automation library execution support. Comprehensive dashboard monitoring capabilities with multiple KPIs. Best Suited For: Standardized testing workflow Requirements Management Test Case Management Manual and Automation Test Execution Management User Story traceability and coverage Defects, Risks, Issues, Enhancements, Recommendations management Dashboards, Metrics, and KPI’s\n\n[S3] | source=https://www.softwaretestinghelp.com/requirements-traceability-matrix/ | section=What Is Test Coverage? | score=0.5035\nTest Coverage states which requirements of the customers are to be verified when the testing phase starts. Test Coverage is a term that determines whether the test cases are written and executed to ensure to test the software application completely, in such a way that minimal or NIL defects are reported. How to achieve Test Coverage? The maximum Test Coverage can be achieved by establishing good ‘Requirement Traceability’. Mapping all internal defects to the test cases designed Mapping all the Customer Reported Defects (CRD) to individual test cases for the future regression test suite\n\n[S4] | source=a_friendly_introduction_to_software_testing_9781523477371_compress.pdf | score=0.4935\n14.9. CODE COVERAGE 125 14.9 Code Coverage Code coverage tells you how much of the codebase is actually executed when running the test suite code. Since defining exactly what is meant by “how much of the codebase” can be complex, there are numerous kinds of code coverage. The simplest form of code coverage is method coverage; this measures what percentage of methods have any tests that call into them. For example, imagine a class Turtle with two methods,crawl() and eat(): public class Turtle { public void crawl() { ... } public void eat() { ... } } If we have a test callingcrawl(), but none callingeat(), then we have 50% code coverage (one of two methods was tested)\n\n[S5] | source=https://www.softwaretestinghelp.com/test-coverage/ | section=What is Test Coverage in Software Testing? How to Improve It | score=0.4851\n. Of them all, coverage is considered especially valuable. Table of Contents: What is Test Coverage Test Coverage and Code Coverage My Experience Test coveragemeaning How to adopt a proper Test Coverage method How to make sure everything is tested Critical areas and methods for effective testing Advantages of Testing Coverage Awareness for a Tester Conclusion",
+      "generated_answer": "Test coverage refers to the extent to which the requirements of customers are verified during the testing phase. It determines whether the test cases are adequately written and executed to ensure that the software application is tested comprehensively, aiming for minimal or no defects reported [S3]. \n\nTo achieve maximum test coverage, it is essential to establish good requirement traceability. This involves mapping all internal defects to the designed test cases and linking customer-reported defects to individual test cases for future regression testing [S3]. \n\nOverall, test coverage is a critical metric in software testing that helps ensure that all aspects of the application are thoroughly evaluated.",
+      "metrics": {
+        "citation_precision": 1.0,
+        "citation_coverage": 0.4,
+        "citation_recall": 0.4,
+        "faithfulness_score": 0.68,
+        "source_level_context_precision": 0.25,
+        "source_level_context_recall": 1.0,
+        "confidence_score": 0.676,
+        "invalid_citation_flag": false,
+        "hallucination_flag": false,
+        "is_insufficient": false,
+        "response_length": 711,
+        "extracted_citations": [
+          "S3"
+        ]
+      },
+      "status": "success"
+    },
+    {
+      "id": "q012",
+      "question": "How should test data be designed before executing test cases?",
+      "language": "en",
+      "expected_sources": [
+        "https://www.softwaretestinghelp.com/tips-to-design-test-data-before-executing-your-test-cases/"
+      ],
+      "reference_answer": "Test data should be prepared before execution to cover valid inputs, invalid inputs, boundary values, edge cases, and realistic business scenarios. Good test data design improves repeatability, avoids execution delays, and helps validate both normal and exceptional system behavior.",
+      "retrieved_sources": [
+        "https://www.softwaretestinghelp.com/test-case-template-examples/",
+        "https://www.softwaretestinghelp.com/system-testing/",
+        "https://www.softwaretestinghelp.com/test-case-template-examples/",
+        "https://www.softwaretestinghelp.com/tips-to-design-test-data-before-executing-your-test-cases/",
+        "https://www.softwaretestinghelp.com/best-test-management-tools/"
+      ],
+      "citation_source_ids": [
+        "S1",
+        "S2",
+        "S3",
+        "S4",
+        "S5"
+      ],
+      "retrieved_source_details": [
+        {
+          "source_id": "S1",
+          "document_source": "https://www.softwaretestinghelp.com/test-case-template-examples/",
+          "score": 0.55,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/test-case-template-examples/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Test Case Template, Examples & Format (Free Download)",
+            "section_level": "title",
+            "page_title": "Test Case Template, Examples & Format (Free Download)",
+            "chunk_index": 620,
+            "chunk_length": 717
+          }
+        },
+        {
+          "source_id": "S2",
+          "document_source": "https://www.softwaretestinghelp.com/system-testing/",
+          "score": 0.4977308172225068,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/system-testing/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Procedure To Write System Test Cases",
+            "section_level": "h3",
+            "page_title": "What is System Testing in Software Testing (with Example)",
+            "chunk_index": 938,
+            "chunk_length": 762
+          }
+        },
+        {
+          "source_id": "S3",
+          "document_source": "https://www.softwaretestinghelp.com/test-case-template-examples/",
+          "score": 0.4832779282611281,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/test-case-template-examples/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Conclusion",
+            "section_level": "h2",
+            "page_title": "Test Case Template, Examples & Format (Free Download)",
+            "chunk_index": 646,
+            "chunk_length": 743
+          }
+        },
+        {
+          "source_id": "S4",
+          "document_source": "https://www.softwaretestinghelp.com/tips-to-design-test-data-before-executing-your-test-cases/",
+          "score": 0.471859679320957,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/tips-to-design-test-data-before-executing-your-test-cases/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "Strategies for Test Data Preparation",
+            "section_level": "h3",
+            "page_title": "What is Test Data? Test Data Preparation Examples",
+            "chunk_index": 677,
+            "chunk_length": 703
+          }
+        },
+        {
+          "source_id": "S5",
+          "document_source": "https://www.softwaretestinghelp.com/best-test-management-tools/",
+          "score": 0.4705486369516947,
+          "metadata": {
+            "source": "https://www.softwaretestinghelp.com/best-test-management-tools/",
+            "type": "web",
+            "page": null,
+            "domain": "www.softwaretestinghelp.com",
+            "file_path": null,
+            "section_title": "#12) JunoOne",
+            "section_level": "h3",
+            "page_title": "The 20 Popular Test Management Tools for 2026",
+            "chunk_index": 760,
+            "chunk_length": 670
+          }
+        }
+      ],
+      "context_length": 4283,
+      "context_text": "[S1] | source=https://www.softwaretestinghelp.com/test-case-template-examples/ | section=Test Case Template, Examples & Format (Free Download) | score=0.5500\nBy Vijay Full Bio > This guide includes prewritten templates for software test cases, actual examples, and document samples that can be downloaded to suit your QA tasks. Every day, I get several requests for aTest Case Template. I’m surprised to see that many testers still document test cases with Word docs or Excel files. But I’m sure that as the volume of your tests goes on increasing, you will find it extremely difficult to manage. No matter whether you are a beginner QA professional or a seasoned software tester. The templates that I have provided in the following section are going to help you write better test cases, increase your test coverage, minimize your errors, and overall optimize your QA process\n\n[S2] | source=https://www.softwaretestinghelp.com/system-testing/ | section=Procedure To Write System Test Cases | score=0.4977\nSystem test cases cover all the scenarios & use cases and also covers functional, non-functional, user interface, and security-related test cases. The test cases are written in the same way as they are written for functional testing. System test cases include the below fields in the template: Test Case ID Test Suite name Description: Describes the test case to be executed. Steps: Step-by-step procedure to describe how to perform testing. Test Data: Dummy data is prepared to test the application. Expected Result: Expected result as per the requirement document is provided in this column. Actual Result: This column provides the result after executing the test case. Pass/Fail: Comparison in actual & expected results defines the Pass/fail criteria. Remarks\n\n[S3] | source=https://www.softwaretestinghelp.com/test-case-template-examples/ | section=Conclusion | score=0.4833\nPersonally, I prefer to use a Test Case Management tool . You can start with an open-source tool. It will be a good addition to your efforts to set up the testing process, and meanwhile, it will also save a lot of time instead of manually maintaining these documents. We have also seen test case templates and a few examples using very good quality documentation. I hope this article was helpful to you. Research Process : Total Time taken for research and publishing this guide : 40 Hours (approx). This guide is based on real testing practices used by QA professionals. We reviewed commonly used test case templates, examined how teams document test cases in day-to-day projects, and created examples that reflect practical testing scenarios\n\n[S4] | source=https://www.softwaretestinghelp.com/tips-to-design-test-data-before-executing-your-test-cases/ | section=Strategies for Test Data Preparation | score=0.4719\n. Typically, we need to create the data or at least identify it based on the type of the requirements each project has in the very beginning. We can apply the following strategies in handling the process of TDM: Data from the production environment Retrieving SQL queries that extract data from Client’s existing databases Automated Data Generation Tools The testers shall back up their testing with complete data by considering the elements as shown in the figure-3 here. The rest of the agile development team generates the necessary data for executing their test cases. When we talk about test cases, we mean cases for various types of testing like the white box, black box, performance, and security\n\n[S5] | source=https://www.softwaretestinghelp.com/best-test-management-tools/ | section=#12) JunoOne | score=0.4705\nGreat tool for Agile Test Case Management and Issue Tracking with powerful JIRA integration. Work efficiently with the sophisticated Test Case Management system JunoOne, designed to streamline Test Management and Incident management. Test Management Software JunoOne offers several tools that will make all the testing activities well arranged, help organize your work, and control the individual steps and the overall state of the projects. JunoOne offers several features throughout the process. It starts with creating the campaign and performing test analysis. Then you plan to test and run the tests. Last but not least, it solves the issues and protects your data.",
+      "generated_answer": "Test data should be designed by identifying and creating the necessary data based on the specific requirements of each project. This process typically involves several strategies, including:\n\n- **Data from the Production Environment**: Utilizing real data from the existing production environment can help ensure that the test cases are relevant and realistic.\n- **Retrieving SQL Queries**: Extracting data from the client's existing databases through SQL queries can provide the necessary test data.\n- **Automated Data Generation Tools**: These tools can assist in generating the required data automatically, which can save time and effort.\n\nIt is essential for testers to back up their testing with complete data, considering the elements relevant to the project requirements [S4].",
+      "metrics": {
+        "citation_precision": 1.0,
+        "citation_coverage": 0.16666666666666666,
+        "citation_recall": 0.16666666666666666,
+        "faithfulness_score": 0.6545454545454545,
+        "source_level_context_precision": 0.25,
+        "source_level_context_recall": 1.0,
+        "confidence_score": 0.5945,
+        "invalid_citation_flag": false,
+        "hallucination_flag": false,
+        "is_insufficient": false,
+        "response_length": 783,
+        "extracted_citations": [
+          "S4"
+        ]
+      },
+      "status": "success"
+    }
+  ]
+}
